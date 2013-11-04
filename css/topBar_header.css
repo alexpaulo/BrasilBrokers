@@ -1,0 +1,13 @@
+#topBar_header{position: fixed; z-index: 99; top: -100%; left: 0; width: 100%; height: auto; background: url(../img/bgWhite90.png) repeat 0 0;}
+#topBar_header_content{display: block; margin: 0 auto; padding: 15px 0; width: 820px;}
+
+#topBar_header .logoHeader{display: block; float: left; margin: 0 0 0 0;}
+#topBar_header .logoHeader a{display: block; width: 189px; height: 30px; text-indent: -9999px; background: url(../img/brasilbrokers_logo.png) no-repeat 0 0;}
+
+#topBar_header .navHeader{display: block; float: left; margin: 12px 0 0 20px;}
+#topBar_header .navHeader ul{display: block; margin: 0; padding: 0; list-style: none;}
+#topBar_header .navHeader li{display: block; margin: 0; padding: 0; float: left; font: 13px 'Myriad Pro', Arial; color: #0a417e;}
+#topBar_header .navHeader .dot{position: relative; top: -2px;}
+#topBar_header .navHeader a{display: inline-block; margin: 0; padding: 3px 6px; font: 12px 'latoregular', Arial; color: #0a417e; text-transform: uppercase; text-decoration: none;}
+#topBar_header .navHeader a:hover,
+#topBar_header .navHeader a.ativo{color: #fff; background: #a9da1e; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}

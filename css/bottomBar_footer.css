@@ -1,0 +1,48 @@
+#bottomBar_footer{position: fixed; z-index: 99; bottom: -100%; left: 0; width: 100%; height: auto; background: #fff;
+-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+}
+#bottomBar_footer_content{display: block; margin: 0 auto; padding: 0;}
+
+  #bottomBar_footer .footer-1{min-height: 200px; background: #fff;}
+  #bottomBar_footer .footer-2{min-height: 59px; background: url(../img/bg_footerBar.jpg) repeat-x 0 0;}
+  #bottomBar_footer .footerContent{margin: 0 auto; width: 960px;}
+
+  #bottomBar_footer .footer_sitemapItem{display: block; margin: 30px 50px 20px 0; padding: 0; float: left;}
+  #bottomBar_footer .footer_sitemapItem:nth-child(5){margin-right: 0;}
+  #bottomBar_footer .footer_sitemapItem > dt{display: block; margin: 0 0 15px 0; padding: 0; font: 12px 'latobold', Arial; color: #333333; text-transform: uppercase;}
+  #bottomBar_footer .footer_sitemapItem > dd{display: block; margin: 0; padding: 0; font: 11px 'latoregular', Arial; color: #666666;}
+  #bottomBar_footer .footer_sitemapItem > dd a{font: 11px 'latoregular', Arial; color: #666666; text-decoration: none;}
+  #bottomBar_footer .footer_sitemapItem > dd a:hover{color: #000; text-decoration: underline;}
+  #bottomBar_footer .footer_sitemapItem > dd ul{display: inline-block; margin: 0 25px 0 0; padding: 0; vertical-align: top}
+  #bottomBar_footer .footer_sitemapItem > dd ul:nth-child(2){margin-right: 0;}
+  #bottomBar_footer .footer_sitemapItem > dd ul > li{display: block; margin: 0 0 5px 0; padding: 0; color: #000;}
+
+  #bottomBar_footer .footerSocials{display: block; margin: -5px 0 0 0; padding: 0;}
+  #bottomBar_footer .footerSocials li{display: block; margin: 1px; padding: 0; float: left;}
+  #bottomBar_footer .footerSocials li:nth-child(3n+1){clear: left;}
+  #bottomBar_footer .footerSocials a{display: inline-block; margin: 0; padding: 0; width: 32px; height: 32px; text-indent: -9999px; background: url(../img/footerIcoSocials.png) 0 0 no-repeat;}
+  #bottomBar_footer .footerSocials .ico_Fb{background-position: 0px 0px}
+  #bottomBar_footer .footerSocials .ico_gPlus{background-position: -32px 0px}
+  #bottomBar_footer .footerSocials .ico_twt{background-position: -64px 0px}
+  #bottomBar_footer .footerSocials .ico_yTube{background-position: -98px 0px}
+  #bottomBar_footer .footerSocials .ico_pint{background-position: -130px 0px}
+  #bottomBar_footer .footerSocials .ico_in{background-position: -163px 0px}
+
+  #bottomBar_footer .footer_txt001{display: inline-block; margin: 0 200px 0 0; font: 11px 'latoregular', Arial; color: #666666;}
+  #bottomBar_footer .footer_txt002{display: inline-block; font: 11px 'latoregular', Arial; color: #666666;}
+
+  #bottomBar_footer .footerStatusBar{display: block; margin: 10px 0 0 0; padding: 0; float: left; width: 560px; height: 40px;}
+  #bottomBar_footer .footerStatusBar-1{position: relative; display: inline-block; vertical-align: middle; margin: 0; padding: 0 60px 0 12px; width: 230px; height: 40px; font: 11px 'latoregular', Arial; color: #fff;}
+  #bottomBar_footer .footerStatusBar-1 strong{display: inline-block; margin: 0 4px 0 2px; color: #97c022;}
+  #bottomBar_footer .footerStatusBar-click{position: absolute; padding: 0 15px 0 6px; right: 0px; top: 13px; color: #fff; text-decoration: none; border-left: 1px solid #fff; background: url(../img/footerBgBoxGray_arrow.png) no-repeat 100% 5px;}
+  #bottomBar_footer .footerStatusBar-1-wrap{display: table-cell; top: 0; vertical-align: middle; margin: 0; padding: 0 0px 0 0px; width: 245px; height: 40px;}
+  
+  #bottomBar_footer .footerStatusBar-2{display: inline-block; vertical-align: middle; margin: 0 0 0 20px; padding: 0 5px 0 0; width: 205px; height: 35px; font: bold 13px 'cartogothic_stdbold', Arial; color: #fff; line-height: 18px;}
+  #bottomBar_footer .footerStatusBar-2 .thatLine{display: inline-block;}
+  #bottomBar_footer .footerStatusBar-2 .thatsLabel{display: inline-block; width: 94px;}
+  #bottomBar_footer .footer-2_BtAzul{float: left; margin: 10px 0 0 -10px;}
+  #bottomBar_footer .footer-2_BtAzul-1{display: inline-block; margin: 0; padding: 0; width: 114px; height: 35px; text-indent: -9999px; background: url(../img/btAzulFooter001.png) 0 0 no-repeat;}
+  #bottomBar_footer .footer-2_BtAzul-2{display: inline-block; margin: 0 0 0 10px; padding: 0; width: 108px; height: 35px; text-indent: -9999px; background: url(../img/btAzulFooter001.png) 100% 0 no-repeat;}
+  #bottomBar_footer .footerBtCorretorOnline{display: block; float: right; margin: -104px 0 0 0; padding: 0; width: 134px; height: 162px; text-indent: -9999px; background: url(../img/footerBtCorretorOnline.png) 0 0 no-repeat;}
