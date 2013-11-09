@@ -19,7 +19,7 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="meusimoveis ">
+    <body class="meus_imoveis">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -45,39 +45,61 @@
                         </div><!-- /breadcrumb -->
 
                         <div class="topShare">
-                                <span class="fb">
-                                    <div id="fb-root"></div>
-                                    <script>(function(d, s, id) {
-                                      var js, fjs = d.getElementsByTagName(s)[0];
-                                      if (d.getElementById(id)) return;
-                                      js = d.createElement(s); js.id = id;
-                                      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-                                      fjs.parentNode.insertBefore(js, fjs);
-                                    }(document, 'script', 'facebook-jssdk'));</script>
-                                    <div class="fb-like" data-href="https://www.brasilbrokers.com.br" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div>
-                                </span>
-                                <span class="gplus">
-                                    <!-- Place this tag where you want the +1 button to render. -->
-                                    <div class="g-plusone" data-size="medium" data-href="http://www.brasilbrokers.com.br"></div>
+                            <span class="fb">
+                                <div id="fb-root"></div>
+                                <script>(function(d, s, id) {
+                                  var js, fjs = d.getElementsByTagName(s)[0];
+                                  if (d.getElementById(id)) return;
+                                  js = d.createElement(s); js.id = id;
+                                  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+                                  fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));</script>
+                                <div class="fb-like" data-href="https://www.brasilbrokers.com.br" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div>
+                            </span>
+                            <span class="gplus">
+                                <!-- Place this tag where you want the +1 button to render. -->
+                                <div class="g-plusone" data-size="medium" data-href="http://www.brasilbrokers.com.br"></div>
 
-                                    <!-- Place this tag after the last +1 button tag. -->
-                                    <script type="text/javascript">
-                                      window.___gcfg = {lang: 'pt-BR'};
+                                <!-- Place this tag after the last +1 button tag. -->
+                                <script type="text/javascript">
+                                  window.___gcfg = {lang: 'pt-BR'};
 
-                                      (function() {
-                                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                                        po.src = 'https://apis.google.com/js/plusone.js';
-                                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                                      })();
-                                    </script>
-                                </span>
-                        </div><!-- /topShare -->  
-                    </div><!-- /row -->   
-                </div><!-- /wrap -->   
-            </section>
+                                  (function() {
+                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                    po.src = 'https://apis.google.com/js/plusone.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                  })();
+                                </script>
+                            </span>
+                        </div><!-- /topShare -->
+                    </div><!-- /row -->
+                    
+
+                    <aside class="sidebar">
+                        <?php include("include/nav_meusimoveis.php") ?>
+                    </aside><!-- /sidebar -->
+
+                    <article class="article col2">
+
+                        <h1 class="titleDefault">
+                            Meus <span class="verde">Imóveis</span>
+                        </h1>
+                        
+                        <h3 class="subtitleDefault">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nulla, iste, explicabo repudiandae facilis facere fugit illum autem accusantium laboriosam rem cum in repellendus aliquid ad. Maiores, assumenda impedit dolore!
+                        </h3>
+
+                        <div class="box_default row">
+                            
+                        </div>
+                    </article><!-- /article -->
+                    <div class="clear"></div>
+                    
+                </div><!-- /wrap -->
+            </section><!-- /section -->
 
             <?php include("include/footer.php") ?>
-        </div>
+        </div><!-- /master -->
         <?php include("include/scripts.php") ?>
     </body>
 </html>
