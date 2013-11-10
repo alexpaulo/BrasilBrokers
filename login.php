@@ -38,45 +38,11 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <span>Venda ou Alugue seu Imóvel</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Avalie seu Imóvel</span>
+                                        <span>Cadastre-se ou Identifique-se</span>
                                     </a>
                                 </li>  
                             </ol><!-- /breadcrumb -->
                         </div><!-- /breadcrumb -->
-
-                        <div class="topShare">
-                            <span class="fb">
-                                <div id="fb-root"></div>
-                                <script>(function(d, s, id) {
-                                  var js, fjs = d.getElementsByTagName(s)[0];
-                                  if (d.getElementById(id)) return;
-                                  js = d.createElement(s); js.id = id;
-                                  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-                                  fjs.parentNode.insertBefore(js, fjs);
-                                }(document, 'script', 'facebook-jssdk'));</script>
-                                <div class="fb-like" data-href="https://www.brasilbrokers.com.br" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div>
-                            </span>
-                            <span class="gplus">
-                                <!-- Place this tag where you want the +1 button to render. -->
-                                <div class="g-plusone" data-size="medium" data-href="http://www.brasilbrokers.com.br"></div>
-
-                                <!-- Place this tag after the last +1 button tag. -->
-                                <script type="text/javascript">
-                                  window.___gcfg = {lang: 'pt-BR'};
-
-                                  (function() {
-                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                                    po.src = 'https://apis.google.com/js/plusone.js';
-                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                                  })();
-                                </script>
-                            </span>
-                        </div><!-- /topShare -->
                     </div><!-- /row -->
                     
 
@@ -86,136 +52,73 @@
                             Cadastre-se ou <span class="verde">Identifique-se</span>
                         </h1>
 
-                        <div class="box_default w750 floatLeft">
+                        <div class="box_default row">
                             <p>
-                                Pensando em vender ou alugar seu imóvel? <br/>
-                                A Brasil Brokers ajuda você a realizar o melhor negócio! Preencha o formulário abaixo com os dados do seu imóvel e seus dados pessoais. Nosso departamento comercial entrará em contato assim que possível.
+                                Para acessar a área do cliente, cadastre-se ou se caso já esteja cadastrado, identifique-se através de seu login e senha.
                             </p>
                             
-                            <form action="" class="row">
-                                <h2 class="titleDefault type05">
-                                    Dados do proprietário
-                                    <span class="alert">Preenchimento obrigatório</span>
-                                </h2>
+                            <form action="" class="box_form floatLeft">
 
-                                <div action="" class="box_form row">
-                                    <fieldset>
-                                        <label for="nome">
-                                            Nome
-                                            <span></span>:
-                                        </label>
-                                        <input name="nome" type="text" class="">
+                                <fieldset>
+                                    <legend>Já tenho cadastro</legend>
+                                    <label for="email">
+                                        E-mail:
+                                    </label>
+                                    <input name="email" type="email" class="">
+                                    
+                                    <label for="senha">
+                                        Senha:
+                                    </label>
+                                    <input name="senha" type="password" class="peq">
 
-                                        <label for="email">
-                                            E-mail
-                                            <span></span>:
-                                        </label>
-                                        <input name="email" type="email" class="">
-                                        
-                                        <div class="floatLeft">
-                                            <label for="tel_cel">
-                                                Telefone Celular
-                                                <span></span>:
-                                            </label>
-                                            <input name="tel_cel_codigo" type="text" class="ddd">
-                                            <input name="tel_cel" type="text" class="tel">
-                                        </div>
-                                        <div class="floatLeft">
-                                            <label for="tel_res">
-                                                Telefone Residencial
-                                                <span></span>:
-                                            </label>
-                                            <input name="tel_res_codigo" type="text" class="ddd">
-                                            <input name="tel_res" type="text" class="tel">
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        
-                                        <label for="aceito_email">
-                                            <input type="checkbox" name="aceito_email" value="">
-                                            Aceito receber mensagens Brasil Brokers por e-mail
-                                        </label>
-                                        <label for="aceito_sms">
-                                            <input type="checkbox" name="" value="aceito_sms">
-                                            Aceito receber mensagens Brasil Brokers por SMS
-                                        </label>
-                                    </fieldset>
-                                </div><!-- /box_form -->
+                                    <input type="submit" class="btAzul004" value="Entrar">
+                                    <div class="clearfix"></div>
+                                    <a href="#" title="Esqueci minha senha">Esqueci minha senha</a>
 
-                                <h2 class="titleDefault type05">Dados do Imóvel</h2>
+                                    <p class="alert">
+                                        Faça seu login, <strong>complete seu cadastro</strong> e receba ofertas exclusivas por e-mail!
+                                    </p>
+                                    
+                                </fieldset>
+                            </form><!-- /box_form -->
 
-                                <div action="" class="box_form row">
-                                    <fieldset>
-                                        <legend>Localização</legend>
-                                        <label for="endereco">
-                                            Endereço
-                                            <span></span>:
-                                        </label>
-                                        <input name="endereco" type="text" class="end">
-                                        
-                                        <label for="cep">
-                                            CEP
-                                            <span></span>:
-                                        </label>
-                                        <input name="cep" type="text" class="cep_col1">
-                                        <input name="cep_codigo" type="text" class="cep_col2">
-                                        <input type="button" value="Completar Endereço" class="btAzul004">
-                                    </fieldset>
+                            <form action="" class="box_form floatRight">
+                                <legend>Ainda não tenho cadastro</legend>
+                                <p>
+                                    Cadastre-se e tenha acesso a todas as funcionalidades da <br>Área do Cliente
+                                </p>
+                                <fieldset>
 
-                                    <fieldset class="floatLeft col1">
-                                        <legend>Tipo do Imóvel</legend>
-                                        <label for="tipo_residencial" class="floatLeft">
-                                            <input type="checkbox" name="tipo_residencial" value="">
-                                            Residencial
-                                        </label>
-                                        <label for="tipo_comercial" class="floatLeft">
-                                            <input type="checkbox" name="tipo_comercial" value="">
-                                            Comercial
-                                        </label>
-                                        <div class="clearfix"></div>
-                                        <label for="metragem">
-                                            Metragem Aproximada:
-                                        </label>
-                                        <input name="metragem" type="text" class="peq">
-                                    </fieldset>
+                                    <label for="Nome">
+                                        Nome:
+                                    </label>
+                                    <input name="Nome" type="text" class="">
 
-                                    <fieldset class="floatLeft col2 row">
-                                        <legend>Finalidade</legend>
-                                        <div class="floatLeft">
-                                            <label for="finalidade_venda" class="check">
-                                                <input type="checkbox" name="finalidade_venda" value="">
-                                                Para Venda
-                                            </label>
-                                            <label for="finalidade_locacao" class="check">
-                                                <input type="checkbox" name="finalidade_locacao" value="">
-                                                Para Locação
-                                            </label>
-                                            <label for="finalidade_todas" class="check">
-                                                <input type="checkbox" name="finalidade_todas" value="">
-                                                Para Venda ou Locação
-                                            </label>
-                                        </div>  
-                                        <div class="floatLeft">
-                                            <label for="valor_venda">Valor pretendido da Venda</label>
-                                            <input name="valor_venda" type="text" class="peq">
-                                            
-                                            <label for="valor_locacao">Valor pretendido da Locação</label>
-                                            <input name="valor_locacao" type="text" class="peq">
-                                        </div>
-                                    </fieldset>
-                                </div><!-- /box_form -->
-                                <input type="submit" value="Enviar" class="btAzul004 floatRight">
-                            </form><!-- /form -->
-                            
-                        </div><!-- /article -->
+                                    <label for="email">
+                                        E-mail:
+                                    </label>
+                                    <input name="email" type="email" class="">
 
-                        <aside class="sidebar dicas">
-                           <h2 class="titleDefault">
-                                Dicas brasil <span class="verde">Brokers</span>
-                            </h2> 
+                                    <label for="senha">
+                                        Senha:
+                                    </label>
+                                    <input name="senha" type="password" class="peq">
+
+                                    <label for="senha_confirma">
+                                        Confirmar Senha:
+                                    </label>
+                                    <input name="senha_confirma" type="password" class="peq">
+
+                                    <input type="submit" class="btAzul004" value="Entrar">
+                                    
+                                </fieldset>
+                            </form><!-- /box_form -->
+
                             <p>
-                                O primeiro passo para vender ou alugar seu imóvel é fazer uma boa avaliação. Preencha os campos do formulário abaixo corretamente que a Brasil Brokers ajuda você a vender ou alugar seu imóvel de forma rápida e segura.
-                            </p>                 
-                        </aside><!-- /sidebar -->
+                                Utilize o Facebook para fazer o login <a href="#" class="login_facebook"></a>
+                            </p>
+                            
+                        </div><!-- /box_default -->
                         
                     </article><!-- /article -->
 

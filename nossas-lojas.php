@@ -19,7 +19,7 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="institucional nossas_lojas">
+    <body class="fale_conosco nossas_lojas">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -86,76 +86,91 @@
                         </div><!-- /topShare -->  
                     </div><!-- /row -->           
 
-                    <article class="article">
+                    <aside class="sidebar">
+                        <?php include("include/nav_faleconosco.php") ?>
+                    </aside><!-- /sidebar -->
 
-                        <div class="box_default bdNone first row">   
-                            <a href="#" class="btAzul004 abreLightBox">ver mapa</a>   
-                            
-                            <figure class="cont_img">
-                                <img src="img/img_loja_bb.jpg" alt="">
-                            </figure>
+                    <article class="article col2">
 
-                            <div class="cont_txt">
-                                <h4 class="titleDefault type04">
-                                    Matriz Grupo Brasil Brokers 
+                        <h1 class="titleDefault">
+                            Nossas <span class="verde">Lojas</span>
+                        </h1>
+
+                        <div class="box_default first row">    
+                            <p>
+                                Referência no mercado imobiliário do país, a Brasil Brokers conta com mais de 17.000 corretores em 15 estados do país. Encontre uma imobiliária mais próxima de você e bons negócios!
+                            </p>
+                            <div class="row">
+                                
+                                <span class="tipo_loja">
+                                    * Matriz
+                                </span><!-- /tipo_loja -->
+                                <figure class="cont_img">
+                                    <img src="img/img_loja_bb.jpg" alt="">
+                                </figure>
+
+                                <div class="cont_txt">
+                                    <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
+                                    <h4 class="titleDefault type04">
+                                        Matriz Grupo Brasil Brokers 
+                                    </h4>
+                                    <p>
+                                        <b>Endereço:</b> Avenida das Américas, 500 Bloco 19 - Sala 301 e 303 Barra da Tijuca, Rio de Janeiro - RJ - CEP: 00000000
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <b>Atendimento:</b> 8h às 20h <br>
+                                        <b>Contato:</b> (21) 3433-3000 | <a href="mailto:sac@brbrokers.com.br">sac@brbrokers.com.br</a>
+                                    </p>
+                                </div><!-- /cont_txt -->
+                            </div>
+                            <div class="box_pesquisa">
+                                <h4>
+                                    Consultar lojas de outras regiões
                                 </h4>
-                                <p>
-                                    <b>Endereço:</b> Avenida das Américas, 500 Bloco 19 - Sala 301 e 303 Barra da Tijuca, Rio de Janeiro - RJ - CEP: 00000000
-                                </p>
-                                <hr>
-                                <p>
-                                    <b>Atendimento:</b> 8h às 20h <br>
-                                    <b>Contato:</b> (21) 3433-3000 | <a href="mailto:sac@brbrokers.com.br">sac@brbrokers.com.br</a>
-                                </p>
-                            </div><!-- /cont_txt -->
+                                <form action="">
+                                    <div class="wrapSelects row">
+                                        <div class="selectType w125">
+                                            <input type="text" name="" id="" class="thatsTxt" disabled>
+                                            <select name="" id="" class="thatsSelect">
+                                                <option value="">SP</option>
+                                            </select>
+                                        </div><!-- /selectType -->
+                                        
+                                        <div class="selectType w185">
+                                            <input type="text" name="" id="" class="thatsTxt" disabled>
+                                            <select name="" id="" class="thatsSelect">
+                                                <option value="">Ribeirão Preto</option>
+                                            </select>
+                                        </div><!-- /selectType -->
+                                        <div class="selectType w185">
+                                            <input type="text" name="" id="" class="thatsTxt" disabled>
+                                            <select name="" id="" class="thatsSelect">
+                                                <option value="">Brasil Brokers Redentora</option>
+                                            </select>
+                                        </div><!-- /selectType -->
+
+                                    </div><!-- /wrapSelects -->
+                                    <input type="submit" class="btAzul004" value="Pesquisar">
+                                </form>
+                            </div><!-- /box_pesquisa -->
 
                         </div><!-- /box_default -->
                         
-                        <div class="box_pesquisa">
-                            <h4>
-                                Confira aqui o que estamos realizando na área social
-                            </h4>
-                            <form action="">
-                                <div class="wrapSelects row">
-                                    <div class="selectType w125">
-                                        <input type="text" name="" id="" class="thatsTxt" disabled>
-                                        <select name="" id="" class="thatsSelect">
-                                            <option value="">SP</option>
-                                        </select>
-                                    </div><!-- /selectType -->
-                                    
-                                    <div class="selectType w185">
-                                        <input type="text" name="" id="" class="thatsTxt" disabled>
-                                        <select name="" id="" class="thatsSelect">
-                                            <option value="">Ribeirão Preto</option>
-                                        </select>
-                                    </div><!-- /selectType -->
-                                    <div class="selectType w185">
-                                        <input type="text" name="" id="" class="thatsTxt" disabled>
-                                        <select name="" id="" class="thatsSelect">
-                                            <option value="">Brasil Brokers Redentora</option>
-                                        </select>
-                                    </div><!-- /selectType -->
-
-                                </div><!-- /wrapSelects -->
-                                <input type="submit" class="btAzul004" value="Pesquisar">
-                            </form>
-                        </div><!-- /box_pesquisa -->
-
                         <ul class="list_lojas">
                         
-                            <li class="box_default row">
+                            <li class="box_default row"> 
+                                
                                 <span class="tipo_loja">
                                     * loja principal
                                 </span><!-- /tipo_loja -->
-
-                                <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
-                                
                                 <figure class="cont_img">
                                     <img src="img/img_loja01.jpg" alt="">
                                 </figure>
 
                                 <div class="cont_txt">
+
+                                    <a href="#" class="btAzul004 abreLightBox">ver mapa</a> 
                                     <h4 class="titleDefault type04">
                                         Central de Atendimento
                                     </h4>
@@ -177,37 +192,21 @@
                                     
                                 </div><!-- /cont_txt -->
 
-                                <div class="cont_right">
-                                    <h6>Segmentação:</h6>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                Lançamentos
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Prontos
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /cont_txt -->
-
                             </li><!-- /box_default -->
 
 
                             <li class="box_default row">
+                                
                                 <span class="tipo_loja">
                                     * loja principal
                                 </span><!-- /tipo_loja -->
-
-                                <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
-                                
                                 <figure class="cont_img">
                                     <img src="img/img_loja02.jpg" alt="">
                                 </figure>
 
                                 <div class="cont_txt">
+
+                                    <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
                                     <h4 class="titleDefault type04">
                                         Alto de Pinheiros - Prontos
                                     </h4>
@@ -227,38 +226,22 @@
                                         </li>
                                     </ul>
                                     
-                                </div><!-- /cont_txt -->
-
-                                <div class="cont_right">
-                                    <h6>Segmentação:</h6>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                Lançamentos
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Prontos
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div><!-- /cont_txt -->
 
                             </li><!-- /box_default -->
                         
                             <li class="box_default row">
+                                
                                 <span class="tipo_loja">
                                     * loja principal
                                 </span><!-- /tipo_loja -->
-
-                                <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
-                                
                                 <figure class="cont_img">
                                     <img src="img/img_loja01.jpg" alt="">
                                 </figure>
 
                                 <div class="cont_txt">
+
+                                    <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
                                     <h4 class="titleDefault type04">
                                         Central de Atendimento
                                     </h4>
@@ -280,37 +263,21 @@
                                     
                                 </div><!-- /cont_txt -->
 
-                                <div class="cont_right">
-                                    <h6>Segmentação:</h6>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                Lançamentos
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Prontos
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /cont_txt -->
-
                             </li><!-- /box_default -->
 
 
                             <li class="box_default row">
+                                
                                 <span class="tipo_loja">
                                     * loja principal
                                 </span><!-- /tipo_loja -->
-
-                                <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
-                                
                                 <figure class="cont_img">
                                     <img src="img/img_loja02.jpg" alt="">
                                 </figure>
 
                                 <div class="cont_txt">
+
+                                    <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
                                     <h4 class="titleDefault type04">
                                         Alto de Pinheiros - Prontos
                                     </h4>
@@ -330,38 +297,22 @@
                                         </li>
                                     </ul>
                                     
-                                </div><!-- /cont_txt -->
-
-                                <div class="cont_right">
-                                    <h6>Segmentação:</h6>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                Lançamentos
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Prontos
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div><!-- /cont_txt -->
 
                             </li><!-- /box_default -->
                         
-                            <li class="box_default row">
+                            <li class="box_default row"> 
+                                
                                 <span class="tipo_loja">
                                     * loja principal
                                 </span><!-- /tipo_loja -->
-
-                                <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
-                                
                                 <figure class="cont_img">
                                     <img src="img/img_loja01.jpg" alt="">
                                 </figure>
 
                                 <div class="cont_txt">
+
+                                    <a href="#" class="btAzul004 abreLightBox">ver mapa</a> 
                                     <h4 class="titleDefault type04">
                                         Central de Atendimento
                                     </h4>
@@ -383,37 +334,21 @@
                                     
                                 </div><!-- /cont_txt -->
 
-                                <div class="cont_right">
-                                    <h6>Segmentação:</h6>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                Lançamentos
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Prontos
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /cont_txt -->
-
                             </li><!-- /box_default -->
 
 
-                            <li class="box_default row">
+                            <li class="box_default row"> 
+                                
                                 <span class="tipo_loja">
                                     * loja principal
                                 </span><!-- /tipo_loja -->
-
-                                <a href="#" class="btAzul004 abreLightBox">ver mapa</a>  
-                                
                                 <figure class="cont_img">
                                     <img src="img/img_loja02.jpg" alt="">
                                 </figure>
 
                                 <div class="cont_txt">
+
+                                    <a href="#" class="btAzul004 abreLightBox">ver mapa</a> 
                                     <h4 class="titleDefault type04">
                                         Alto de Pinheiros - Prontos
                                     </h4>
@@ -435,26 +370,7 @@
                                     
                                 </div><!-- /cont_txt -->
 
-                                <div class="cont_right">
-                                    <h6>Segmentação:</h6>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                Lançamentos
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Prontos
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /cont_txt -->
-
                             </li><!-- /box_default -->
-
-
-
 
                         </ul><!-- /list_sociais -->
 

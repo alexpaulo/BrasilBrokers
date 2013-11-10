@@ -206,7 +206,7 @@
                                 <input type="submit" value="Enviar" class="btAzul004 floatRight">
                             </form><!-- /form -->
                             
-                        </div><!-- /article -->
+                        </div><!-- /box_default -->
 
                         <aside class="sidebar dicas">
                            <h2 class="titleDefault">

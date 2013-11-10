@@ -321,6 +321,22 @@ $(function(){
 		}
 	//lightbox-fim
 
+	//lightbox Login:
+		function mostrarLightBox_login(){
+			$('html, body').stop(true,true).animate({ scrollTop:200 }, 1000);
+			
+			$('.blackOut').fadeIn(1000);
+			$('.wrap_modalLogin').delay(1000).fadeIn(500);
+		}
+
+
+	//lightbox Solicita Informacoes:
+		function mostrarLightBox_solicita(){
+			$('html, body').stop(true,true).animate({ scrollTop:200 }, 1000);
+			
+			$('.blackOut').fadeIn(1000);
+			$('.wrap_modalSolicita').delay(1000).fadeIn(500);
+		}
 
 	//lightbox selectBairros:
 		function mostrarLightBox_bairros(){
@@ -380,9 +396,23 @@ $(function(){
 			.on('click', '.wrap_modalSimulaImovel .wrap_modalSimulaImovel_fechar', function(){
 				$('.wrap_modalSimulaImovel').fadeOut(500);
 				$('.blackOut').fadeOut(1000);
+			})
+			.on('click', '.wrap_modalLogin .wrap_modalLogin_fechar', function(){
+				$('.wrap_modalLogin').fadeOut(500);
+				$('.blackOut').fadeOut(1000);
+			})
+			.on('click', '.wrap_modalSolicita .wrap_modalSolicita_fechar', function(){
+				$('.wrap_modalSolicita').fadeOut(500);
+				$('.blackOut').fadeOut(1000);
 			});
 
 		// --------------------------------------------------------------- > mostra o lightbox pras telas de teste:
+		if( $('.wrap_modalSolicita').length > 0 ){
+			mostrarLightBox_solicita()
+		}
+		if( $('.wrap_modalLogin').length > 0 ){
+			mostrarLightBox_login()
+		}
 		if( $('.wrap_modalSelectBairro').length > 0 ){
 			mostrarLightBox_bairros()
 		}

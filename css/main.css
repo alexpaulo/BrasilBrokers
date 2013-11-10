@@ -599,26 +599,6 @@ body{background: #023671; overflow-x: hidden;}
   .contentAbas001 dd .txtOlive strong{font-family: 'latobold';}
   .contentAbas001 dd .txtexemplo{display: block; margin: 10px 0; font-size: 12px;}
   
-  .w20per{width: 20%;}
-  .w30per{width: 30%;}
-  .w40per{width: 40%;}
-  .w45per{width: 45%;}
-  .w50per{width: 50%;}
-  .w95per{width: 95%;}
-  .w100per{width: 100%;}
-  .w40{width: 40px;}
-  .w50{width: 50px;}
-  .w95{width: 95px;}
-  .w100{width: 100px;}
-  .w114{width: 114px;}
-  .w115{width: 115px;}
-  .w125{width: 125px;}
-  .w140{width: 140px;}
-  .w150{width: 150px;}
-  .w185{width: 185px;}
-  .w200{width: 200px;}
-  .w212{width: 212px;}
-  .w750{width: 750px;}
   .marRight0{margin-right: 0 !important;}
 
   #firstFiltroAba_imovel{margin: 0 0 0px 0; padding: 0 0 5px 0; border-bottom: 1px solid #86a921;}
@@ -948,28 +928,54 @@ body{background: #023671; overflow-x: hidden;}
   .wrap_formType001 .wrap_formType001-2 .wrapForm .btAzul003{padding: 0 35px; height: 40px; border: none;}
   .wrap_formType001 .wrap_formType001-2 .wrapForm .checkboxTypes003 a{color: #426611;}
   
-  .w38{width: 38px !important;}
-  .w160{width: 160px !important;}
-  .w385{width: 385px !important;}
-  .w205{width: 205px !important;}
-  .w610{width: 610px !important;}
+
+  .mTop30{margin-top: 30px !important;}
   .mRight15{margin-right: 15px !important;}
+  .mRight10{margin-right: 10px !important;}
   .mRight7{margin-right: 7px !important;}
+
+
+  .w20per{width: 20%;}
+  .w30per{width: 30%;}
+  .w40per{width: 40%;}
+  .w45per{width: 45%;}
+  .w50per{width: 50%;}
+  .w95per{width: 95%;}
+  .w100per{width: 100%;}
+
   .w30{width: 30px !important;}
+  .w38{width: 38px !important;}
   .w40{width: 40px !important;}
+  .w45{width: 45px !important;}
   .w50{width: 50px !important;}
   .w60{width: 60px !important;}
   .w70{width: 70px !important;}
   .w80{width: 80px !important;}
   .w90{width: 90px !important;}
+  .w95{width: 95px !important;}
   .w100{width: 100px !important;}
   .w110{width: 110px !important;}
+  .w114{width: 114px;}
+  .w115{width: 115px;}
   .w120{width: 120px !important;}
+  .w125{width: 125px;}
   .w130{width: 130px !important;}
   .w140{width: 140px !important;}
   .w150{width: 150px !important;}
+  .w155{width: 155px !important;}
   .w160{width: 160px !important;}
   .w170{width: 170px !important;}
+  .w180{width: 180px !important;}  
+  .w185{width: 185px;}
+  .w200{width: 200px;}
+  .w205{width: 205px !important;}
+  .w210{width: 210px !important;}
+  .w212{width: 212px;}
+  .w218{width: 218px !important;}
+  .w384{width: 384px !important;}
+  .w385{width: 385px !important;}
+  .w610{width: 610px !important;}
+  .w750{width: 750px;}
 /* pre-lancamento.php - fim */
 
 
@@ -1445,58 +1451,134 @@ body{background: #023671; overflow-x: hidden;}
 .navSide ul li.active span.color,
 .navSide ul li:hover span.color { background: #7ab304; }
 
-.bbrokers .inst_bbrokers a,
-.atuacao .inst_atuacao a,
-.servicos_prestados .inst_servicos a,
-.nossa_historia .inst_historia a,
-.imprensa .inst_imprensa a,
-.relacao_investidores .inst_ri a,
-.agenda_eventos .inst_agenda a,
-.premios .inst_premios a,
-.acoes_sociais .inst_sociais a,
-.faq .inst_faq a,
-.glossario .inst_glossario a,
-.area_restrita .inst_restrita a { color: #7ab304; }
+  .bbrokers .inst_bbrokers a,
+  .atuacao .inst_atuacao a,
+  .servicos_prestados .inst_servicos a,
+  .nossa_historia .inst_historia a,
+  .imprensa .inst_imprensa a,
+  .relacao_investidores .inst_ri a,
+  .agenda_eventos .inst_agenda a,
+  .premios .inst_premios a,
+  .acoes_sociais .inst_sociais a,
+  .faq .inst_faq a,
+  .glossario .inst_glossario a,
+  .area_restrita .inst_restrita a,
+  
+  /*meus imoveis*/
+  .meus_imoveis .imoveis_meus a,
+  .imoveis_favoritos .imoveis_fav a,
+  .buscas_salvas .imoveis_buscas a,
+  .aplicativos .imoveis_aplicativos a,
+  .gerenciar_anuncios .imoveis_gerenciar a,
+  .solicitar_busca .imoveis_solicitar a,
+  .meus_dados .imoveis_dados a,
+
+  /*fale conosco*/
+  .relacionamento .fale_relacionamento a,
+  .central_vendas .fale_central a,
+  .falebb .fale_falebb a,
+  .nossas_lojas .fale_nossaslojas a,
+  .seja_um .fale_sejaum a,
+  .trabalhe_conosco .fale_trabalhe a,
+  .atendimento .fale_atendimento a
+  
+
+   { color: #7ab304; }
 
 
-.bbrokers .inst_bbrokers li a,
-.atuacao .inst_atuacao li a,
-.servicos_prestados .inst_servicos li a,
-.nossa_historia .inst_historia li a,
-.imprensa .inst_imprensa li a,
-.relacao_investidores .inst_ri li a,
-.agenda_eventos .inst_agenda li a,
-.premios .inst_premios li a,
-.acoes_sociais .inst_sociais li a,
-.faq .inst_faq li a,
-.glossario .inst_glossario li a,
-.area_restrita .inst_restrita li a { padding-left: 5px; color: #787878; }
+  .bbrokers .inst_bbrokers li a,
+  .atuacao .inst_atuacao li a,
+  .servicos_prestados .inst_servicos li a,
+  .nossa_historia .inst_historia li a,
+  .imprensa .inst_imprensa li a,
+  .relacao_investidores .inst_ri li a,
+  .agenda_eventos .inst_agenda li a,
+  .premios .inst_premios li a,
+  .acoes_sociais .inst_sociais li a,
+  .faq .inst_faq li a,
+  .glossario .inst_glossario li a,
+  .area_restrita .inst_restrita li a,
 
-.bbrokers .inst_bbrokers,
-.atuacao .inst_atuacao,
-.servicos_prestados .inst_servicos,
-.nossa_historia .inst_historia,
-.imprensa .inst_imprensa,
-.relacao_investidores .inst_ri,
-.agenda_eventos .inst_agenda,
-.premios .inst_premios,
-.acoes_sociais .inst_sociais,
-.faq .inst_faq,
-.glossario .inst_glossario,
-.area_restrita .inst_restrita { background: url(../img/navSide_grad_hover.png) repeat-x; }
+  /*meus imoveis*/
+  .meus_imoveis .imoveis_meus li a,
+  .imoveis_favoritos .imoveis_fav li a,
+  .buscas_salvas .imoveis_buscas li a,
+  .aplicativos .imoveis_aplicativos li a,
+  .gerenciar_anuncios .imoveis_gerenciar li a,
+  .solicitar_busca .imoveis_solicitar li a,
+  .meus_dados .imoveis_dados li a,
 
-.bbrokers .inst_bbrokers span.color,
-.atuacao .inst_atuacao span.color,
-.servicos_prestados .inst_servicos span.color,
-.nossa_historia .inst_historia span.color,
-.imprensa .inst_imprensa span.color,
-.relacao_investidores .inst_ri span.color,
-.agenda_eventos .inst_agenda span.color,
-.premios .inst_premios span.color,
-.acoes_sociais .inst_sociais span.color,
-.faq .inst_faq span.color,
-.glossario .inst_glossario span.color,
-.area_restrita .inst_restrita span.color { background: #7ab304; }
+  /*fale conosco*/
+  .relacionamento .fale_relacionamento li a,
+  .central_vendas .fale_central li a,
+  .falebb .fale_falebb li a,
+  .nossas_lojas .fale_nossaslojas li a,
+  .seja_um .fale_sejaum li a,
+  .trabalhe_conosco .fale_trabalhe li a,
+  .atendimento .fale_atendimento li a { padding-left: 5px; color: #787878; }
+
+  .bbrokers .inst_bbrokers,
+  .atuacao .inst_atuacao,
+  .servicos_prestados .inst_servicos,
+  .nossa_historia .inst_historia,
+  .imprensa .inst_imprensa,
+  .relacao_investidores .inst_ri,
+  .agenda_eventos .inst_agenda,
+  .premios .inst_premios,
+  .acoes_sociais .inst_sociais,
+  .faq .inst_faq,
+  .glossario .inst_glossario,
+  .area_restrita .inst_restrita,
+
+  /*meus imoveis*/
+  .meus_imoveis .imoveis_meus,
+  .imoveis_favoritos .imoveis_fav,
+  .buscas_salvas .imoveis_buscas,
+  .aplicativos .imoveis_aplicativos,
+  .gerenciar_anuncios .imoveis_gerenciar,
+  .solicitar_busca .imoveis_solicitar,
+  .meus_dados .imoveis_dados,
+
+  /*fale conosco*/
+  .relacionamento .fale_relacionamento,
+  .central_vendas .fale_central,
+  .falebb .fale_falebb,
+  .nossas_lojas .fale_nossaslojas,
+  .seja_um .fale_sejaum,
+  .trabalhe_conosco .fale_trabalhe,
+  .atendimento .fale_atendimento
+   { background: url(../img/navSide_grad_hover.png) repeat-x; }
+
+  .bbrokers .inst_bbrokers span.color,
+  .atuacao .inst_atuacao span.color,
+  .servicos_prestados .inst_servicos span.color,
+  .nossa_historia .inst_historia span.color,
+  .imprensa .inst_imprensa span.color,
+  .relacao_investidores .inst_ri span.color,
+  .agenda_eventos .inst_agenda span.color,
+  .premios .inst_premios span.color,
+  .acoes_sociais .inst_sociais span.color,
+  .faq .inst_faq span.color,
+  .glossario .inst_glossario span.color,
+  .area_restrita .inst_restrita span.color,
+
+  /*meus imoveis*/
+  .meus_imoveis .imoveis_meus span.color,
+  .imoveis_favoritos .imoveis_fav span.color,
+  .buscas_salvas .imoveis_buscas span.color,
+  .aplicativos .imoveis_aplicativos span.color,
+  .gerenciar_anuncios .imoveis_gerenciar span.color,
+  .solicitar_busca .imoveis_solicitar span.color,
+  .meus_dados .imoveis_dados span.color,
+
+  /*fale conosco*/
+  .relacionamento .fale_relacionamento span.color,
+  .central_vendas .fale_central span.color,
+  .falebb .fale_falebb span.color,
+  .nossas_lojas .fale_nossaslojas span.color,
+  .seja_um .fale_sejaum span.color,
+  .trabalhe_conosco .fale_trabalhe span.color,
+  .atendimento .fale_atendimento span.color { background: #7ab304; }
 
 
 .imprensa.releases ul li.inst_imprensa li.imp_releases a,
@@ -1856,16 +1938,79 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 
 /* login */
 .login { }
+.login .box_default { padding: 20px 30px; }
+.login .box_form { width: 369px; min-height: 305px; padding: 30px 40px; margin-bottom: 20px; }
+.login .box_form p { margin-top: 20px; }
+.login .box_form input[type="text"],
+.login .box_form input[type="email"] { width: 330px; }
+.login .box_form input[type="text"], 
+.login .box_form input[type="email"], 
+.login .box_form input[type="password"] { margin-bottom: 5px; }
+.login .box_form .peq { margin-right: 10px; }
+.login .box_form a { color: #6078a4; font: 11px/18px 'latoregular'; border-bottom: solid 1px #6078a4; text-decoration: none; }
+.login .box_form a:hover { border: none; }
+.login .box_form .alert { width: 300px; padding: 8px 15px; margin-top: 20px; border: solid 1px #dcdcdc; background: #eaeaea; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.login .box_form legend { font: 18px 'latoregular', Arial; color: #6078a4; margin-bottom: 10px; }
+.login_facebook { width: 142px; height: 25px; position: relative; top: 9px; left: 5px; display: inline-block; background: url(../img/btn_login_facebook.png) no-repeat; }
+
+  .wrap_modalLogin{position: absolute; z-index: 1001; display: none; margin: 0 0 0 -480px; padding: 25px 25px; top: 225px; left: 50%; width: 960px; height: auto; background: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+  .wrap_modalLogin_fechar{position: absolute; right: 10px; top: 12px; display: block; margin: 0; padding: 0; width: 21px; height: 19px; background: url(../img/close_mapaBoxInfoImovel.png) 0 0 no-repeat; text-indent: -9999px;}
+  .wrap_modalLogin_fechar:hover{background-position: 0 100%;}
+  .wrap_modalLogin_title{ display: block; margin: 0; padding: 0; font: 20px 'latobold'; color: #6078a4; text-transform: uppercase;}
+  .wrap_modalLogin_content { border: none; padding: 0; margin: 0; }
+  .wrap_modalLogin_content.login .box_form { width: 374px; }
+
+
+/* ==========================================================================
+   MEUS IMOVEIS
+   ========================================================================== */
+
+/* meus dados */
+.meus_dados { }
+.meus_dados .box_form a { color: #6078a4; font: 12px/22px 'latoregular'; }
+.meus_dados .box_form .btAzul004:last-child { float: right; padding-left: 0; padding-right: 0; width: 130px; }
+
+
+
+/* ==========================================================================
+   FALE CONOSCO
+   ========================================================================== */
+.fale_conosco { }
+
+/* Fale com a Brasil Brokers */
+.falebb .info { margin: 30px 0; }
+.falebb .box_default { }
+.falebb .box_default li,
+.falebb .box_default p { color: #7b7b7b; }
+.falebb .box_default .cont_img { position: relative; border: 1px solid #e9e9e9; float: left; width: 165px; margin-right: 20px; }
+.falebb .box_default .cont_txt { float: left; width: 315px; position: relative; }
+.falebb .box_default .cont_txt h4 { }
+.falebb .box_default .cont_txt p { margin-bottom: 10px; }
+.falebb .box_default .cont_txt b { font-family: 'latobold'; }
+.falebb .box_default .cont_txt hr { width: 315px; margin: 0 0 5px 0; border-color: #e6e6e6; }
+.falebb .box_default .cont_txt a { color: #7b7b7b; font-size: 12px; text-decoration: none; }
+.falebb .box_default .cont_txt a:hover { text-decoration: underline; }
+
+.falebb .box_default .box_form { padding: 40px 72px; }
+.falebb .box_default .box_form input[type="text"], 
+.falebb .box_default .box_form input[type="email"], 
+.falebb .box_default .box_form input[type="password"],
+.falebb .box_default .box_form textarea { width: 550px; }
+.falebb .box_default .box_form textarea { height: 100px; }
+.falebb .box_default .box_form input.mail { width: 327px; }
+.falebb .box_default .box_form select { width: 205px; }
+.falebb .box_default .btAzul004 { float: right; margin-right: 72px; }
 
 /* nossas lojas */
 .nossas_lojas { }
 .nossas_lojas { }
-.nossas_lojas .box_default { position: relative; padding: 40px 25px; }
+.nossas_lojas .box_default { }
 .nossas_lojas .box_default li,
 .nossas_lojas .box_default p { color: #7b7b7b; }
-.nossas_lojas .box_default .btAzul004 { position: absolute; bottom: 25px; right: 118px; padding: 4px 10px 3px 10px; }
-.nossas_lojas .box_default .cont_img { float: left; width: 165px; margin-right: 20px; }
-.nossas_lojas .box_default .cont_txt { float: left; width: 530px; }
+.nossas_lojas .box_default .btAzul004 { position: absolute; top: 0; right: -150px; margin: 0; padding: 4px 10px 3px 10px; color: #ffffff !important; }
+.nossas_lojas .box_default .btAzul004:hover { text-decoration: none !important; }
+.nossas_lojas .box_default .cont_img { position: relative; float: left; width: 165px; margin-right: 20px; }
+.nossas_lojas .box_default .cont_txt { float: left; width: 380px; position: relative; }
 .nossas_lojas .box_default .cont_txt h4 { }
 .nossas_lojas .box_default .cont_txt p { margin-bottom: 10px; }
 .nossas_lojas .box_default .cont_txt b { font-family: 'latobold'; }
@@ -1873,17 +2018,16 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .nossas_lojas .box_default .cont_right { float: right; width: 170px; }
 .nossas_lojas .box_default .cont_right ul { padding-left: 15px; }
 .nossas_lojas .box_default .cont_right ul li { padding-left: 8px; background: url(../img/arrow_list.png) no-repeat 0 7px; }
-.nossas_lojas .box_default.first { margin-top: 0; }
-.nossas_lojas .box_default.first p { width: 350px; }
-.nossas_lojas .box_default.first .btAzul004 { bottom: 47px; }
 .nossas_lojas .box_default .cont_txt a,
 .nossas_lojas .box_default .cont_right a { color: #7b7b7b; font-size: 12px; text-decoration: none; }
 .nossas_lojas .box_default .cont_txt a:hover,
 .nossas_lojas .box_default .cont_right a:hover { text-decoration: underline; }
+.nossas_lojas .box_default .box_pesquisa { border-width: 1px; margin-bottom: 0; }
+.nossas_lojas .box_default .box_pesquisa .btAzul004 { position: static; margin-top: 12px; }
+.nossas_lojas .box_default .tipo_loja { width: 100%; display: block; text-align: left; font: 11px/20px 'latoregular'; margin-bottom: 5px; color: #7b7b7b; }
 
 .nossas_lojas ul.list_lojas { }
 .nossas_lojas ul.list_lojas li.box_default { padding-bottom: 25px; }
-.nossas_lojas ul.list_lojas li .tipo_loja { position: absolute; top: 20px; left: 25px; width: 165px; text-align: right; font: 11px/11px 'latoregular'; color: #7b7b7b; }
 .nossas_lojas ul.list_lojas li { border: none; }
 .nossas_lojas ul.list_lojas li h4 { margin-bottom: 0; }
 .nossas_lojas ul.list_lojas li h5 { font: 12px/22px 'latoregular'; color: #7b7b7b; }
@@ -1892,10 +2036,21 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .nossas_lojas ul.list_lojas li .cont_img { }
 .nossas_lojas ul.list_lojas li .cont_txt { }
 
+/* solicita mais informacoes */
+.wrap_modalSolicita{position: absolute; z-index: 1001; display: none; margin: 0 0 0 -372px; padding: 25px 25px; top: 225px; left: 50%; width: 744px; height: auto; background: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.wrap_modalSolicita_fechar{position: absolute; right: 10px; top: 12px; display: block; margin: 0; padding: 0; width: 21px; height: 19px; background: url(../img/close_mapaBoxInfoImovel.png) 0 0 no-repeat; text-indent: -9999px;}
+.wrap_modalSolicita_fechar:hover{background-position: 0 100%;}
+.wrap_modalSolicita_title{ display: block; margin: 0; padding: 0; font: 20px 'latobold'; color: #6078a4; text-transform: uppercase;}
+.wrap_modalSolicita_content { border: none; padding: 0; margin: 0; }
 
-
-
-
+.wrap_modalSolicita_content.box_default .box_form { padding: 40px 72px; }
+.wrap_modalSolicita_content.box_default .box_form input[type="text"], 
+.wrap_modalSolicita_content.box_default .box_form input[type="email"], 
+.wrap_modalSolicita_content.box_default .box_form input[type="password"],
+.wrap_modalSolicita_content.box_default .box_form textarea { width: 528px; }
+.wrap_modalSolicita_content.box_default .box_form textarea { height: 100px; }
+.wrap_modalSolicita_content.box_default .box_form select { width: 205px; margin-right: 20px; }
+.wrap_modalSolicita_content.box_default .btAzul004 { float: right; margin-top: 10px; }
 
 /* FORMULARIOS */
 .box_form { background: #f1f1f1; padding: 18px 20px 10px 20px; }
@@ -1903,15 +2058,20 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .box_form label { display: block; font: 12px/22px 'latoregular'; color: #808080; }
 .box_form label span:after { content: "*"; color: #093c75; }
 .box_form input[type="text"],
-.box_form input[type="email"] { border: solid 1px #d8d8d8; background: #ffffff; padding: 0 10px; width: 514px; height: 22px; line-height: 22px; margin-bottom: 10px; }
+.box_form input[type="email"],
+.box_form input[type="number"],
+.box_form input[type="date"],
+.box_form input[type="tel"],
+.box_form input[type="password"] { font: 12px/22px 'latoregular'; color: #808080; border: solid 1px #d8d8d8; background: #ffffff; padding: 0 10px; width: 514px; height: 22px; line-height: 22px; margin-bottom: 10px; }
+.box_form select { font: 12px/22px 'latoregular'; color: #808080; border: solid 1px #d8d8d8; background: #ffffff; width: 130px; height: 22px; line-height: 22px; margin-bottom: 10px; margin-right: 20px; }
+.box_form textarea { font: 12px/22px 'latoregular'; color: #808080; border: solid 1px #d8d8d8; background: #ffffff; padding: 10px; margin-bottom: 10px; }
 .box_form input.ddd { width: 18px; margin-right: 5px; }
 .box_form input.tel { width: 132px; margin-right: 20px; }
 .box_form input.end { width: 578px; }
 .box_form input.cep_col1 { width: 122px; margin-right: 10px; }
-.box_form input.cep_col2 { width: 54px; margin-right: 10px; }
+.box_form input.cep_col2 { width: 35px; margin-right: 10px; }
 .box_form input.peq { width: 130px; }
-
-
+.box_form .btAzul004 { margin-top: 0; }
 
 
 /* menor q o ie9 */
