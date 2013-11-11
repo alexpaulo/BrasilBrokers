@@ -1970,6 +1970,27 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .meus_dados .box_form a { color: #6078a4; font: 12px/22px 'latoregular'; }
 .meus_dados .box_form .btAzul004:last-child { float: right; padding-left: 0; padding-right: 0; width: 130px; }
 
+/* aplicativos */
+.aplicativos .box_default ul.list_app { }
+.aplicativos .box_default ul.list_app li { margin-bottom: 30px; }
+.aplicativos .box_default ul.list_app li:last-child { margin-bottom: 0; }
+.aplicativos .box_default .cont_img { position: relative; float: left; width: 165px; margin-right: 20px; }
+.aplicativos .box_default .cont_txt { float: left; width: 525px; position: relative; }
+.aplicativos .box_default .cont_txt h4 { padding-bottom: 5px; border-bottom: 1px solid #e9e9e9; }
+.aplicativos .box_default .cont_txt p { }
+.aplicativos .box_default .cont_txt b { font-family: 'latobold'; }
+.aplicativos .box_default .cont_txt a { color: #7b7b7b; font-size: 12px; text-decoration: none; }
+.aplicativos .box_default .cont_txt a:hover { text-decoration: underline; }
+
+.aplicativos .box_form { padding: 40px 72px; }
+.aplicativos .box_form .titleDefault.type05 { margin: 0; padding: 0; border: none; text-transform: uppercase; }
+.aplicativos .box_form input[type="text"],
+.aplicativos .box_form input[type="email"],
+.aplicativos .box_form textarea { width: 550px; }
+.aplicativos .box_form textarea { height: 100px; }
+.aplicativos .box_form label.radio { float: left; margin-right: 20px; }
+.aplicativos .box_form .btAzul004 { float: right; margin-top: 20px; }
+
 
 
 /* ==========================================================================
