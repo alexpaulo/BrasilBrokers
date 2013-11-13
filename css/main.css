@@ -1991,6 +1991,14 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .aplicativos .box_form label.radio { float: left; margin-right: 20px; }
 .aplicativos .box_form .btAzul004 { float: right; margin-top: 20px; }
 
+.imoveis_favoritos { }
+.imoveis_favoritos .result { float: left; padding: 4px 0 0 0; font: 12px 'latoregular', Arial; color:#7b7b7b;}
+.imoveis_favoritos .result strong{font-family: 'latobold';}
+.imoveis_favoritos .selectType { margin-right: 0; }
+.imoveis_favoritos .wrapRight { float: right; width: 180px; }
+.imoveis_favoritos .wrapRight .btAzul002 { margin: 8px 0 15px 0; }
+.imoveis_favoritos .wrapRight .btAzul002,
+.imoveis_favoritos .wrapRight .checkboxTypes002  { float: right; }
 
 
 /* ==========================================================================
@@ -2094,6 +2102,25 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .box_form input.peq { width: 130px; }
 .box_form .btAzul004 { margin-top: 0; }
 
+
+/* COMPARACAO */
+.lista_comparacao{display: block; margin: 0; padding: 0;}
+.lista_comparacao > li { display: inline-block; width: 181px; margin: 0 4px 10px 0; padding: 0; background: #fff; vertical-align: top; border: 1px solid #e5e5e5; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.lista_comparacao > li:nth-child(5n) {margin-right: 0;}
+
+.lista_comparacao .title{ font: 15px/18px 'latobold'; text-transform: uppercase; color: #6078a4; margin: 35px 8px 10px 8px; padding: 0 0 8px 0; min-height: 35px; border-bottom: 1px solid #ececec;}
+.lista_comparacao .img_capa { margin: 8px; }
+.lista_comparacao .wrapImg{ float: left; position: relative; margin: 0 8px 40px 8px; width: 165px; height: 105px; }
+.lista_comparacao .wrapImg .thatsImg{ width: 165px; height: 105px; overflow: hidden;}
+.lista_comparacao .wrapImg .thatsImg img { display: block; }
+.lista_comparacao .thatsLabel{position: absolute; background: url(../img/spriteBbrokers001.png) 0 0 no-repeat;}
+.lista_comparacao .thatsLabel.exclusivo{top: -5px; left: -5px; width: 78px; height: 78px; background-position: 0 0;}
+.lista_comparacao .thatsLabel.lancamento{top: 95px; left: -5px; width: 170px; height: 33px; background-position: -91px -35px;}
+.lista_comparacao .thatsLabel.pronto{top: 95px; left: -5px; width: 170px; height: 33px; background-position: -91px -70px;}
+.lista_comparacao .thatsLabel.breve{top: 95px; left: -5px; width: 170px; height: 33px; background-position: -91px 0px;}
+
+.ico_pos { width: 18px; height: 27px; display: block; margin: 0 auto; background: url(../img/sprite_comparacao.png) no-repeat left top; }
+.ico_neg { width: 18px; height: 27px; display: block; margin: 0 auto; background: url(../img/sprite_comparacao.png) no-repeat left bottom; }
 
 /* menor q o ie9 */
 

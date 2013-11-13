@@ -91,12 +91,343 @@
                         </h1>
                         
                         <h3 class="subtitleDefault">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam porro repellendus hic dolorem et natus ipsa rerum distinctio cupiditate ipsam? Nisi, voluptates deserunt corporis nostrum consequatur alias quibusdam provident dicta!
+                            Lista de imóveis selecionados por você.
                         </h3>
-
-                        <div class="box_default row">
+                        
+                        <div class="headerBusca row">
+                            <div class="result">Exibidos <strong>10</strong> de <strong>1000</strong></div>
                             
-                        </div>
+                            <div class="floatRight">
+                                <div class="selectType w100 border001">
+                                    <input type="text" name="" id="" class="thatsTxt" disabled>
+                                    <select name="" id="" class="thatsSelect">
+                                        <option value="">Ordenar por</option>
+                                        <option value="">EUA</option>
+                                        <option value="">Argentina</option>
+                                    </select>
+                                </div>
+                            </div><!-- /floatRight -->
+                            <div class="clear"></div>
+                            
+                            <a href="javascript:void(0);" title="" class="btAzul001 floatLeft btComparar">
+                                <span class="txt">Comparar imóveis selecionados </span>
+                            </a>
+
+                            <a href="javascript:void(0);" title="" class="btAzul001 floatRight">
+                                <span class="txt">Solicitar mais informações de toda a seleção de imóveis</span>
+                            </a>
+                        </div><!-- /headerBusca -->
+                        
+                        <div class="wrap_resultado_da_busca row">
+                            <ul class="lista_resultado_da_busca">
+                                <li>
+                                    <div class="title">
+                                        <strong>RESIDENCIAL BARCELONETA</strong>
+                                        <div class="checkboxTypes002">
+                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                        </div>
+                                        <div class="titleBts">
+                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
+                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel exclusivo"></div>
+                                            <div class="thatsLabel lancamento"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="">A partir de:</span>
+                                                <span class="price">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Mais detalhes</span>
+                                            </a>
+
+                                            <div class="checkboxTypes002">
+                                                <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                            </div>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+                                <li>
+                                    <div class="title">
+                                        <strong>RESIDENCIAL BARCELONETA</strong>
+                                        <div class="checkboxTypes002">
+                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                        </div>
+                                        <div class="titleBts">
+                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
+                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel pronto"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="line">De: R$ 986.000,00</span>
+                                                <span class="price destaq">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Mais detalhes</span>
+                                            </a>
+
+                                            <div class="checkboxTypes002">
+                                                <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                            </div>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+                                <li>
+                                    <div class="title">
+                                        <strong>RESIDENCIAL BARCELONETA</strong>
+                                        <div class="checkboxTypes002">
+                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                        </div>
+                                        <div class="titleBts">
+                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
+                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel exclusivo"></div>
+                                            <div class="thatsLabel breve"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="">A partir de:</span>
+                                                <span class="price">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Mais detalhes</span>
+                                            </a>
+
+                                            <div class="checkboxTypes002">
+                                                <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                            </div>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+                                <li>
+                                    <div class="title">
+                                        <strong>RESIDENCIAL BARCELONETA</strong>
+                                        <div class="checkboxTypes002">
+                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                        </div>
+                                        <div class="titleBts">
+                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
+                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel exclusivo"></div>
+                                            <div class="thatsLabel lancamento"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="">A partir de:</span>
+                                                <span class="price">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Mais detalhes</span>
+                                            </a>
+
+                                            <div class="checkboxTypes002">
+                                                <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                            </div>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+                                <li>
+                                    <div class="title">
+                                        <strong>RESIDENCIAL BARCELONETA</strong>
+                                        <div class="checkboxTypes002">
+                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                        </div>
+                                        <div class="titleBts">
+                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
+                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel exclusivo"></div>
+                                            <div class="thatsLabel pronto"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="line">De: R$ 986.000,00</span>
+                                                <span class="price destaq">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Mais detalhes</span>
+                                            </a>
+
+                                            <div class="checkboxTypes002">
+                                                <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                            </div>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+                                <li>
+                                    <div class="title">
+                                        <strong>RESIDENCIAL BARCELONETA</strong>
+                                        <div class="checkboxTypes002">
+                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                        </div>
+                                        <div class="titleBts">
+                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
+                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel breve"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="">A partir de:</span>
+                                                <span class="price">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Mais detalhes</span>
+                                            </a>
+
+                                            <div class="checkboxTypes002">
+                                                <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                            </div>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+                            </ul><!-- /lista_resultado_da_busca -->
+                            <div class="clear"></div>
+
+                            <div class="pagerType001">
+                                <a href="#" title="" class="">Anterior</a>
+                                <a href="#" title="" class="pageNum ativo">01</a>
+                                <a href="#" title="" class="pageNum">02</a>
+                                <a href="#" title="" class="pageNum">03</a>
+                                <a href="#" title="" class="pageNum">04</a>
+                                <a href="#" title="" class="pageNum">05</a>
+                                <a href="#" title="" class="">Próxima</a>
+                            </div><!-- /pagerType001 -->
+                        </div><!-- /wrap_resultado_da_busca -->
+                       
+                        <div class="clear"></div>
+                    
                     </article><!-- /article -->
                     <div class="clear"></div>
                     
