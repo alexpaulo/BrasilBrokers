@@ -123,13 +123,8 @@
                                 <li>
                                     <div class="title">
                                         <strong>RESIDENCIAL BARCELONETA</strong>
-                                        <div class="checkboxTypes002">
-                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
-                                        </div>
-                                        <div class="titleBts">
-                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
-                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
-                                        </div>
+                                        
+                                        <a href="#" class="ico_excluir">excluir</a>
                                         <div class="clear"></div>
                                     </div>
                                     
@@ -172,13 +167,7 @@
                                 <li>
                                     <div class="title">
                                         <strong>RESIDENCIAL BARCELONETA</strong>
-                                        <div class="checkboxTypes002">
-                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
-                                        </div>
-                                        <div class="titleBts">
-                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
-                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
-                                        </div>
+                                        <a href="#" class="ico_excluir">excluir</a>
                                         <div class="clear"></div>
                                     </div>
                                     
@@ -220,13 +209,7 @@
                                 <li>
                                     <div class="title">
                                         <strong>RESIDENCIAL BARCELONETA</strong>
-                                        <div class="checkboxTypes002">
-                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
-                                        </div>
-                                        <div class="titleBts">
-                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
-                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
-                                        </div>
+                                        <a href="#" class="ico_excluir">excluir</a>
                                         <div class="clear"></div>
                                     </div>
                                     
@@ -269,13 +252,7 @@
                                 <li>
                                     <div class="title">
                                         <strong>RESIDENCIAL BARCELONETA</strong>
-                                        <div class="checkboxTypes002">
-                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
-                                        </div>
-                                        <div class="titleBts">
-                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
-                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
-                                        </div>
+                                        <a href="#" class="ico_excluir">excluir</a>
                                         <div class="clear"></div>
                                     </div>
                                     
@@ -318,13 +295,7 @@
                                 <li>
                                     <div class="title">
                                         <strong>RESIDENCIAL BARCELONETA</strong>
-                                        <div class="checkboxTypes002">
-                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
-                                        </div>
-                                        <div class="titleBts">
-                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
-                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
-                                        </div>
+                                        <a href="#" class="ico_excluir">excluir</a>
                                         <div class="clear"></div>
                                     </div>
                                     
@@ -367,13 +338,7 @@
                                 <li>
                                     <div class="title">
                                         <strong>RESIDENCIAL BARCELONETA</strong>
-                                        <div class="checkboxTypes002">
-                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
-                                        </div>
-                                        <div class="titleBts">
-                                            <a href="#" class="thatsLinks" title="Corretor online"><span class="label_tooltip">Corretor online</span><span class="icoHeadSet003"></span></a>
-                                            <a href="#" class="thatsLinks" title="Atendimento por email"><span class="label_tooltip">Atendimento por email</span><span class="icoMail003"></span></a>
-                                        </div>
+                                        <a href="#" class="ico_excluir">excluir</a>
                                         <div class="clear"></div>
                                     </div>
                                     

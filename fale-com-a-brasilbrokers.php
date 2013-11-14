@@ -121,26 +121,31 @@
                                         <label for="nome">
                                             Nome:
                                         </label>
-                                        <input name="nome" type="text" class="">
+                                        <input name="nome" type="text" class="type_txt">
                                         
                                         <div class="floatLeft">
                                             <label for="telefone">
                                                 Telefone:
                                             </label>
-                                            <input name="telefone_ddd" type="number" class="ddd">
-                                            <input name="telefone" type="number" class="tel">
+                                            <input name="telefone_ddd" type="number" class="type_txt ddd">
+                                            <input name="telefone" type="number" class="type_txt tel">
                                         </div>
                                         <div class="floatLeft">
                                             <label for="email">
                                                 E-mail:
                                             </label>
-                                            <input name="email" type="email" class="mail">
+                                            <input name="email" type="email" class="type_txt mail">
                                         </div>
                                         <div class="clearfix"></div>
                                         <label for="assunto">
                                             Assunto:
                                         </label>
-                                        <select name="assunto" id=""></select>
+                                        <div class="selectType border001 w210">
+                                            <input type="text" name="" id="" class="thatsTxt" disabled>
+                                            <select name="" id="" class="thatsSelect">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
 
                                         <label for="mensagem">
                                             Mensagem:

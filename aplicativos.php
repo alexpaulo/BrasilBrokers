@@ -211,17 +211,26 @@ fazer uma busca por imóveis para comprar ou alugar. Super rápido e prático!
                                     <label for="assunto">
                                         Aplicativo utilizado
                                     </label>
-                                    <select name="assunto" id="" class="w210"></select>
+                                    <div class="selectType border001 w210">
+                                        <input type="text" name="" id="" class="thatsTxt" disabled>
+                                        <select name="" id="" class="thatsSelect">
+                                            <option value=""></option>
+                                            <option value="">App Ipad</option>
+                                            <option value="">Buscador Facebook</option>
+                                            <option value="">Android Google Play</option>
+                                            <option value="">App Iphone</option>
+                                        </select>
+                                    </div>
                                     
                                     <label for="nome">
                                         Nome
                                     </label>
-                                    <input name="nome" type="text" class="">
+                                    <input name="nome" type="text" class="type_txt ">
                                     
                                     <label for="email">
                                         E-mail
                                     </label>
-                                    <input name="email" type="email" class="mail">
+                                    <input name="email" type="email" class="type_txt mail">
                                 
                                     <label for="mensagem">
                                         Mensagem:

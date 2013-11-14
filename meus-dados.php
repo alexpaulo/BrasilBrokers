@@ -101,51 +101,51 @@
                                     <label for="nome">
                                         Nome:
                                     </label>
-                                    <input name="nome" type="text" class="">
+                                    <input name="nome" type="text" class="type_txt ">
 
                                     <label for="email">
                                         E-mail:
                                     </label>
-                                    <input name="email" type="email" class="">
+                                    <input name="email" type="email" class="type_txt ">
                                 
                                     <label for="senha">
                                         Senha:
                                     </label>
-                                    <input name="senha" type="password" class="w210">
+                                    <input name="senha" type="password" class="type_txt w210">
                                     <a href="#" class="">Alterar</a>
 
                                     <label for="senha_confirma">
                                         Confirmar Senha:
                                     </label>
-                                    <input name="senha_confirma" type="password" class="w210">
+                                    <input name="senha_confirma" type="password" class="type_txt w210">
 
                                     <label for="cpf">
                                         CPF:
                                     </label>
-                                    <input name="cpf" type="number" class="w210">
+                                    <input name="cpf" type="number" class="type_txt w210">
 
                                     <label for="tel_celular">
                                         Telefone Celular:
                                     </label>
-                                    <input name="tel_celular_ddd" type="number" class="w30">
-                                    <input name="tel_celular" type="tel" class="w155">
+                                    <input name="tel_celular_ddd" type="number" class="type_txt w30">
+                                    <input name="tel_celular" type="tel" class="type_txt w155">
                                     
                                     <label for="data_nascimento">
                                         Data de Nascimento:
                                     </label>
-                                    <input name="data_nascimento" type="date" class="w110">
+                                    <input name="data_nascimento" type="date" class="type_txt w110">
 
                                     <label for="tel_residencial">
                                         Telefone Residencial:
                                     </label>
-                                    <input name="tel_residencial_ddd" type="number" class="w30">
-                                    <input name="tel_residencial" type="tel" class="w155">
+                                    <input name="tel_residencial_ddd" type="number" class="type_txt w30">
+                                    <input name="tel_residencial" type="tel" class="type_txt w155">
 
                                     <label for="cep">
                                         CEP:
                                     </label>
-                                    <input name="cep" type="number" class="w130 mRight10">
-                                    <input name="cep_cod" type="number" class="w45 mRight10">
+                                    <input name="cep" type="number" class="type_txt w130 mRight10">
+                                    <input name="cep_cod" type="number" class="type_txt w45 mRight10">
 
                                     <input name="" type="button" class="btAzul004" value="Completar Endereço">
 
@@ -153,57 +153,72 @@
                                         <label for="endereco">
                                             Endereço:
                                         </label>
-                                        <input name="endereco" type="text" class="w384 mRight10">
+                                        <input name="endereco" type="text" class="type_txt w384 mRight10">
                                     </div>
                                     <div class="floatLeft">
                                         <label for="numero">
                                             Número:
                                         </label>
-                                        <input name="numero" type="number" class="w50 mRight10">
+                                        <input name="numero" type="number" class="type_txt w50 mRight10">
                                     </div>
                                     <div class="floatLeft">
                                         <label for="complemento">
                                             Complemento:
                                         </label>
-                                        <input name="complemento" type="text" class="w155">
+                                        <input name="complemento" type="text" class="type_txt w155">
                                     </div>
 
                                     <div class="clearfix"></div>
+                                    
+                                    <div class="floatLeft mRight10">
+                                        <label for="uf">UF:</label>
+                                        <div class="selectType border001 w80">
+                                            <input type="text" name="" id="" class="thatsTxt" disabled>
+                                            <select name="" id="" class="thatsSelect">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="floatLeft mRight10">
+                                        <label for="uf">Cidade:</label>
+                                        <div class="selectType border001 w218">
+                                            <input type="text" name="" id="" class="thatsTxt" disabled>
+                                            <select name="" id="" class="thatsSelect">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
 
                                     <div class="floatLeft">
-                                        <label for="uf">
-                                            UF:
-                                        </label>
-                                        <select name="uf" id="" class="w80 mRight10"></select>
+                                        <label for="uf">Bairro:</label>
+                                        <div class="selectType border001 w218">
+                                            <input type="text" name="" id="" class="thatsTxt" disabled>
+                                            <select name="" id="" class="thatsSelect">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
                                     </div>
-                                    <div class="floatLeft">
-                                        <label for="ciade">
-                                            Cidade:
-                                        </label>
-                                        <select name="ciade" id="" class="w218 mRight10"></select>
-                                    </div>
-                                    <div class="floatLeft">
-                                        <label for="bairro">
-                                            Bairro:
-                                        </label>
-                                        <select name="bairro" id="" class="w218"></select>
-                                    </div>
-                                    
+
                                     <div class="clearfix"></div>
 
                                     <label for="outro_pais">
                                         Outro País:
                                     </label>
-                                    <input name="outro_pais" type="text" class="">
+                                    <input name="outro_pais" type="text" class="type_txt">
                                         
-                                    <label for="aceito_email">
-                                        <input type="checkbox" name="aceito_email" value="">
-                                        Aceito receber Ofertas e mensagens da Brasil Brokers  por e-mail
-                                    </label>
-                                    <label for="aceito_sms">
-                                        <input type="checkbox" name="" value="aceito_sms">
-                                        Aceito receber mensagens SMS sobre produtos da Brasil Brokers
-                                    </label>
+                                    <div class="checkboxTypes003 block">
+                                        <a href="javascript:void(0);" title="">
+                                            <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                            Aceito receber Ofertas e mensagens da Brasil Brokers  por e-mail
+                                        </a>
+                                    </div>
+                                    <div class="checkboxTypes003 block">
+                                        <a href="javascript:void(0);" title="">
+                                            <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                            Aceito receber mensagens SMS sobre produtos da Brasil Brokers
+                                        </a>
+                                    </div>
 
                                     <p class="mTop30">
                                         Caso deseje cancelar o seu cadastro <a href="#">clique aqui</a>.

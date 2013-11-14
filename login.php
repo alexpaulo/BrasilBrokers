@@ -64,12 +64,12 @@
                                     <label for="email">
                                         E-mail:
                                     </label>
-                                    <input name="email" type="email" class="">
+                                    <input name="email" type="email" class="type_txt">
                                     
                                     <label for="senha">
                                         Senha:
                                     </label>
-                                    <input name="senha" type="password" class="peq">
+                                    <input name="senha" type="password" class="type_txt peq">
 
                                     <input type="submit" class="btAzul004" value="Entrar">
                                     <div class="clearfix"></div>
@@ -92,22 +92,22 @@
                                     <label for="Nome">
                                         Nome:
                                     </label>
-                                    <input name="Nome" type="text" class="">
+                                    <input name="Nome" type="text" class="type_txt">
 
                                     <label for="email">
                                         E-mail:
                                     </label>
-                                    <input name="email" type="email" class="">
+                                    <input name="email" type="email" class="type_txt">
 
                                     <label for="senha">
                                         Senha:
                                     </label>
-                                    <input name="senha" type="password" class="peq">
+                                    <input name="senha" type="password" class="type_txt peq">
 
                                     <label for="senha_confirma">
                                         Confirmar Senha:
                                     </label>
-                                    <input name="senha_confirma" type="password" class="peq">
+                                    <input name="senha_confirma" type="password" class="type_txt peq">
 
                                     <input type="submit" class="btAzul004" value="Entrar">
                                     

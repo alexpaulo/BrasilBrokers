@@ -42,40 +42,51 @@
                             <label for="nome">
                                 Nome:
                             </label>
-                            <input name="nome" type="text" class="">
+                            <input name="nome" type="text" class="type_txt">
 
                             <label for="email">
                                 E-mail:
                             </label>
-                            <input name="email" type="email" class="mail">
+                            <input name="email" type="email" class="type_txt mail">
                             
                             <div class="floatLeft">
                                 <label for="tel_residencial">
                                     Telefone Residencial:
                                 </label>
-                                <input name="tel_residencial_ddd" type="number" class="ddd">
-                                <input name="tel_residencial" type="number" class="tel">
+                                <input name="tel_residencial_ddd" type="number" class="type_txt ddd">
+                                <input name="tel_residencial" type="number" class="type_txt tel">
                             </div>
                             <div class="floatLeft">
                                 <label for="tel_celular">
                                     Telefone:
                                 </label>
-                                <input name="tel_celular_ddd" type="number" class="ddd">
-                                <input name="tel_celular" type="number" class="tel">
+                                <input name="tel_celular_ddd" type="number" class="type_txt ddd">
+                                <input name="tel_celular" type="number" class="type_txt tel">
                             </div>
-
-                            <div class="floatLeft">   
+                            
+                            
+                            <div class="floatLeft w203 mRight20">   
                                 <label for="uf">
                                     Selecione UF:
                                 </label>
-                                <select name="uf" id=""></select>
+                                <div class="selectType border001 w203">
+                                    <input type="text" name="" id="" class="thatsTxt" disabled>
+                                    <select name="" id="" class="thatsSelect">
+                                        <option value=""></option>
+                                    </select>
+                                </div>
                             </div>
             
-                            <div class="floatLeft">   
+                            <div class="floatLeft w203">   
                                 <label for="regional">
                                     Selecione a Regional:
                                 </label>
-                                <select name="regional" id=""></select>
+                                <div class="selectType border001 w203">
+                                    <input type="text" name="" id="" class="thatsTxt" disabled>
+                                    <select name="" id="" class="thatsSelect">
+                                        <option value=""></option>
+                                    </select>
+                                </div>
                             </div>
 
                             <div class="clearfix"></div>

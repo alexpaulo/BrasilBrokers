@@ -19,7 +19,7 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="home">
+    <body class="comparacao">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -87,7 +87,12 @@
                         
                         <div class="box_default row">   
                             
-                            <ul class="lista_comparacao viewMode_grade">
+                            <div class="row bar_links">
+                                <a href="#" class="icoPrinter002"></a>
+                                <a href="#" class="bt_voltar"> « VOLTAR</a>
+                            </div><!-- /row -->
+
+                            <ul class="lista_comparacao row">
                                 <li>
                                     <table>
                                         <tr>
@@ -163,7 +168,9 @@
                                         </tr>
                                         <tr>
                                             <td>
-
+                                                <h4>Legenda:</h4>
+                                                <div class="ico_pos txt">Possui</div>
+                                                <div class="ico_neg txt">Não Possui</div>
                                             </td>
                                         </tr>
                                     </table>
@@ -172,6 +179,7 @@
                                     <table>
                                         <tr>
                                             <th>
+                                                <a href="#" class="ico_excluir">excluir</a>
                                                 <h2 class="title">
                                                     recém reformado, lazer completo
                                                 </h2>
@@ -268,6 +276,7 @@
                                     <table>
                                         <tr>
                                             <th>
+                                                <a href="#" class="ico_excluir">excluir</a>
                                                 <h2 class="title">
                                                     RESIDENCIAL BARCELONETA
                                                 </h2>
@@ -308,7 +317,7 @@
                                         </tr>
                                         <tr>
                                             <td class="valor">
-                                                R$ 986.000,00                                                
+                                                valor sob consulta                                               
                                             </td>
                                         </tr>
 
@@ -363,6 +372,7 @@
                                     <table>
                                         <tr>
                                             <th>
+                                                <a href="#" class="ico_excluir">excluir</a>
                                                 <h2 class="title">
                                                     RESIDENCIAL BARCELONETA
                                                 </h2>
@@ -459,6 +469,7 @@
                                     <table>
                                         <tr>
                                             <th>
+                                                <a href="#" class="ico_excluir">excluir</a>
                                                 <h2 class="title">
                                                     RESIDENCIAL BARCELONETA
                                                 </h2>
@@ -550,7 +561,6 @@
                                         </tr>
                                     </table>
                                 </li>
-
                             </ul>
                             
                         </div><!-- /box_default -->

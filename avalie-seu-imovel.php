@@ -104,40 +104,45 @@
                                             Nome
                                             <span></span>:
                                         </label>
-                                        <input name="nome" type="text" class="">
+                                        <input name="nome" type="text" class="type_txt">
 
                                         <label for="email">
                                             E-mail
                                             <span></span>:
                                         </label>
-                                        <input name="email" type="email" class="">
+                                        <input name="email" type="email" class="type_txt">
                                         
                                         <div class="floatLeft">
                                             <label for="tel_cel">
                                                 Telefone Celular
                                                 <span></span>:
                                             </label>
-                                            <input name="tel_cel_codigo" type="text" class="ddd">
-                                            <input name="tel_cel" type="text" class="tel">
+                                            <input name="tel_cel_codigo" type="text" class="type_txt ddd">
+                                            <input name="tel_cel" type="text" class="type_txt tel">
                                         </div>
                                         <div class="floatLeft">
                                             <label for="tel_res">
                                                 Telefone Residencial
                                                 <span></span>:
                                             </label>
-                                            <input name="tel_res_codigo" type="text" class="ddd">
-                                            <input name="tel_res" type="text" class="tel">
+                                            <input name="tel_res_codigo" type="text" class="type_txt ddd">
+                                            <input name="tel_res" type="text" class="type_txt tel">
                                         </div>
                                         <div class="clearfix"></div>
                                         
-                                        <label for="aceito_email">
-                                            <input type="checkbox" name="aceito_email" value="">
-                                            Aceito receber mensagens Brasil Brokers por e-mail
-                                        </label>
-                                        <label for="aceito_sms">
-                                            <input type="checkbox" name="" value="aceito_sms">
-                                            Aceito receber mensagens Brasil Brokers por SMS
-                                        </label>
+                                        <div class="checkboxTypes003 block">
+                                            <a href="javascript:void(0);" title="">
+                                                <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                                Aceito receber mensagens Brasil Brokers por e-mail
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="checkboxTypes003 block">
+                                            <a href="javascript:void(0);" title="">
+                                                <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                                Aceito receber mensagens Brasil Brokers por SMS
+                                            </a>
+                                        </div>
                                     </fieldset>
                                 </div><!-- /box_form -->
 
@@ -150,56 +155,70 @@
                                             Endereço
                                             <span></span>:
                                         </label>
-                                        <input name="endereco" type="text" class="end">
+                                        <input name="endereco" type="text" class="type_txt end">
                                         
                                         <label for="cep">
                                             CEP
                                             <span></span>:
                                         </label>
-                                        <input name="cep" type="text" class="cep_col1">
-                                        <input name="cep_codigo" type="text" class="cep_col2">
+                                        <input name="cep" type="text" class="type_txt cep_col1">
+                                        <input name="cep_codigo" type="text" class="type_txt cep_col2">
                                         <input type="button" value="Completar Endereço" class="btAzul004">
                                     </fieldset>
 
                                     <fieldset class="floatLeft col1">
                                         <legend>Tipo do Imóvel</legend>
-                                        <label for="tipo_residencial" class="floatLeft">
-                                            <input type="checkbox" name="tipo_residencial" value="">
-                                            Residencial
-                                        </label>
-                                        <label for="tipo_comercial" class="floatLeft">
-                                            <input type="checkbox" name="tipo_comercial" value="">
-                                            Comercial
-                                        </label>
+                                        
+                                        <div class="checkboxTypes003 floatLeft">
+                                            <a href="javascript:void(0);" title="">
+                                                <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                                Residencial
+                                            </a>
+                                        </div>
+                                        <div class="checkboxTypes003 floatLeft">
+                                            <a href="javascript:void(0);" title="">
+                                                <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                                Comercial
+                                            </a>
+                                        </div>
                                         <div class="clearfix"></div>
                                         <label for="metragem">
                                             Metragem Aproximada:
                                         </label>
-                                        <input name="metragem" type="text" class="peq">
+                                        <input name="metragem" type="text" class="type_txt peq">
                                     </fieldset>
 
                                     <fieldset class="floatLeft col2 row">
                                         <legend>Finalidade</legend>
                                         <div class="floatLeft">
-                                            <label for="finalidade_venda" class="check">
-                                                <input type="checkbox" name="finalidade_venda" value="">
-                                                Para Venda
-                                            </label>
-                                            <label for="finalidade_locacao" class="check">
-                                                <input type="checkbox" name="finalidade_locacao" value="">
-                                                Para Locação
-                                            </label>
-                                            <label for="finalidade_todas" class="check">
-                                                <input type="checkbox" name="finalidade_todas" value="">
-                                                Para Venda ou Locação
-                                            </label>
-                                        </div>  
+                                            <div class="checkboxTypes003 check">
+                                                <a href="javascript:void(0);" title="">
+                                                    <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                                    Para Venda
+                                                </a>
+                                            </div>
+                                            <div class="checkboxTypes003 check">
+                                                <a href="javascript:void(0);" title="">
+                                                    <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                                    Para Locação
+                                                </a>
+                                            </div>
+                                            <div class="checkboxTypes003 check">
+                                                <a href="javascript:void(0);" title="">
+                                                    <input type="hidden" value="0" name="" id="" class="thatsCheckbox">
+                                                    Para Venda ou Locação
+                                                </a>
+                                            </div>
+                                            
+                                        </div><!-- /floatLeft -->
+
+
                                         <div class="floatLeft">
                                             <label for="valor_venda">Valor pretendido da Venda</label>
-                                            <input name="valor_venda" type="text" class="peq">
+                                            <input name="valor_venda" type="text" class="type_txt peq">
                                             
                                             <label for="valor_locacao">Valor pretendido da Locação</label>
-                                            <input name="valor_locacao" type="text" class="peq">
+                                            <input name="valor_locacao" type="text" class="type_txt peq">
                                         </div>
                                     </fieldset>
                                 </div><!-- /box_form -->

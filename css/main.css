@@ -415,6 +415,7 @@ body{background: #023671; overflow-x: hidden;}
 .checkboxTypes003 a{position: relative; display: block; margin: 0 0 4px 0; padding: 1px 2px 1px 22px; font: 12px 'Myriad Pro', Arial; color: #7b7b7b; text-decoration: none; background: url(../img/ico_checkboxTypes003.png) 0 0 no-repeat; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 .checkboxTypes003 a.ativo{padding: 1px 2px 1px 22px; background: url(../img/ico_checkboxTypes003.png) 0 -107px no-repeat; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
 .checkboxTypes003 .thatsCheckbox{position: absolute; right: 0;}
+.checkboxTypes003.block { display: block; }
 
 .checkboxTypes001.inlineType{}
 .checkboxTypes001.inlineType a{display: inline-block; padding-right: 3px;}
@@ -897,6 +898,7 @@ body{background: #023671; overflow-x: hidden;}
   .wrap_empreendimentoPersonalizado .infoBar .shareBar .icoPDF001{position: relative; top: 0px;}
 
   .icoPrinter001{display: inline-block; margin: 0; padding: 0; width: 20px; height: 19px; background: url(../img/spriteBbrokers001.png) -111px -109px no-repeat;}
+  .icoPrinter002{display: inline-block; margin: 0; padding: 0; width: 65px; height: 13px; background: url(../img/spriteBbrokers001.png) -112px -158px no-repeat;}
   .icoPDF001{display: inline-block; margin: 0; padding: 0; width: 20px; height: 20px; background: url(../img/spriteBbrokers001.png) -111px -133px no-repeat;}
 
   .wrap_empreendimentoPersonalizado .contentArea{display: block; border: 14px solid #fff; background: #dbdbdb;}
@@ -930,6 +932,7 @@ body{background: #023671; overflow-x: hidden;}
   
 
   .mTop30{margin-top: 30px !important;}
+  .mRight20{margin-right: 20px !important;}
   .mRight15{margin-right: 15px !important;}
   .mRight10{margin-right: 10px !important;}
   .mRight7{margin-right: 7px !important;}
@@ -968,6 +971,7 @@ body{background: #023671; overflow-x: hidden;}
   .w180{width: 180px !important;}  
   .w185{width: 185px;}
   .w200{width: 200px;}
+  .w203{width: 203px !important;}
   .w205{width: 205px !important;}
   .w210{width: 210px !important;}
   .w212{width: 212px;}
@@ -1925,11 +1929,12 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .avalie_imovel .titleDefault .alert { color: #7b7b7b; font: 12px/18px 'latoregular'; position: absolute; top: 0; right: 0; }
 .avalie_imovel .titleDefault .alert:before { content: "*"; color: #093c75; }
 .avalie_imovel fieldset.col1 { width: 260px; }
-.avalie_imovel fieldset.col1 label.floatLeft { margin: 5px 30px 10px 0; }
+.avalie_imovel fieldset.col1 .floatLeft { margin: 5px 30px 10px 0; }
 .avalie_imovel fieldset.col2 div { width: 180px; }
-.avalie_imovel fieldset.col2 label.check { margin: 5px 0 10px; }
+.avalie_imovel fieldset.col2 .check { margin: 5px 0 10px; }
 .avalie_imovel fieldset.col2 input[type="text"] { margin-bottom: 0; }
 .avalie_imovel .btAzul004.floatRight { width: 150px; padding-left: 0; padding-right: 0; margin-top: 25px; }
+.avalie_imovel .box_form .checkboxTypes003 { margin-bottom: 10px; }
 
 .sidebar.dicas { float: right; background: #ffffff; padding: 12px 8px; width: 158px; margin-top: 18px; min-height: 480px; }
 .sidebar.dicas .titleDefault { font-size: 14px; }
@@ -1969,6 +1974,8 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .meus_dados { }
 .meus_dados .box_form a { color: #6078a4; font: 12px/22px 'latoregular'; }
 .meus_dados .box_form .btAzul004:last-child { float: right; padding-left: 0; padding-right: 0; width: 130px; }
+.meus_dados .box_form .checkboxTypes003 { margin-bottom: 10px; }
+.meus_dados .box_form .checkboxTypes003 a { line-height: 13px; color: #7B7B7B; }
 
 /* aplicativos */
 .aplicativos .box_default ul.list_app { }
@@ -1999,6 +2006,7 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .imoveis_favoritos .wrapRight .btAzul002 { margin: 8px 0 15px 0; }
 .imoveis_favoritos .wrapRight .btAzul002,
 .imoveis_favoritos .wrapRight .checkboxTypes002  { float: right; }
+.imoveis_favoritos .lista_resultado_da_busca li { position: relative; }
 
 
 /* ==========================================================================
@@ -2086,12 +2094,7 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .box_form legend { display: block; font: 12px/22px 'latobold'; color: #808080; }
 .box_form label { display: block; font: 12px/22px 'latoregular'; color: #808080; }
 .box_form label span:after { content: "*"; color: #093c75; }
-.box_form input[type="text"],
-.box_form input[type="email"],
-.box_form input[type="number"],
-.box_form input[type="date"],
-.box_form input[type="tel"],
-.box_form input[type="password"] { font: 12px/22px 'latoregular'; color: #808080; border: solid 1px #d8d8d8; background: #ffffff; padding: 0 10px; width: 514px; height: 22px; line-height: 22px; margin-bottom: 10px; }
+.box_form .type_txt { font: 12px/22px 'latoregular'; color: #808080; border: solid 1px #d8d8d8; background: #ffffff; padding: 0 10px; width: 514px; height: 22px; line-height: 22px; margin-bottom: 10px; }
 .box_form select { font: 12px/22px 'latoregular'; color: #808080; border: solid 1px #d8d8d8; background: #ffffff; width: 130px; height: 22px; line-height: 22px; margin-bottom: 10px; margin-right: 20px; }
 .box_form textarea { font: 12px/22px 'latoregular'; color: #808080; border: solid 1px #d8d8d8; background: #ffffff; padding: 10px; margin-bottom: 10px; }
 .box_form input.ddd { width: 18px; margin-right: 5px; }
@@ -2105,12 +2108,12 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 
 /* COMPARACAO */
 .lista_comparacao{display: block; margin: 0; padding: 0;}
-.lista_comparacao > li { display: inline-block; width: 181px; margin: 0 4px 10px 0; padding: 0; background: #fff; vertical-align: top; border: 1px solid #e5e5e5; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.lista_comparacao > li { position: relative; float: left; display: block; width: 184px; margin: 0 5px 10px 0; padding: 0; background: #fff; vertical-align: top; border: 1px solid #e5e5e5; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .lista_comparacao > li:nth-child(5n) {margin-right: 0;}
 
-.lista_comparacao .title{ font: 15px/18px 'latobold'; text-transform: uppercase; color: #6078a4; margin: 35px 8px 10px 8px; padding: 0 0 8px 0; min-height: 35px; border-bottom: 1px solid #ececec;}
+.lista_comparacao .title{ font: 15px/18px 'latobold'; text-align: left; text-transform: uppercase; color: #6078a4; margin: 35px 8px 10px 8px; padding: 0 0 8px 0; min-height: 35px; border-bottom: 1px solid #ececec;}
 .lista_comparacao .img_capa { margin: 8px; }
-.lista_comparacao .wrapImg{ float: left; position: relative; margin: 0 8px 40px 8px; width: 165px; height: 105px; }
+.lista_comparacao .wrapImg{ float: left; position: relative; margin: 0 8px 0 8px; width: 165px; height: 105px; }
 .lista_comparacao .wrapImg .thatsImg{ width: 165px; height: 105px; overflow: hidden;}
 .lista_comparacao .wrapImg .thatsImg img { display: block; }
 .lista_comparacao .thatsLabel{position: absolute; background: url(../img/spriteBbrokers001.png) 0 0 no-repeat;}
@@ -2119,8 +2122,32 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .lista_comparacao .thatsLabel.pronto{top: 95px; left: -5px; width: 170px; height: 33px; background-position: -91px -70px;}
 .lista_comparacao .thatsLabel.breve{top: 95px; left: -5px; width: 170px; height: 33px; background-position: -91px 0px;}
 
-.ico_pos { width: 18px; height: 27px; display: block; margin: 0 auto; background: url(../img/sprite_comparacao.png) no-repeat left top; }
-.ico_neg { width: 18px; height: 27px; display: block; margin: 0 auto; background: url(../img/sprite_comparacao.png) no-repeat left bottom; }
+.lista_comparacao table { }
+.lista_comparacao table th { height: 245px; }
+.lista_comparacao table td { font: 12px/22px 'latoregular'; color: #7b7b7b; height: 30px; border-top: 1px solid #DDDDDD; line-height: 30px; padding: 0 18px; vertical-align: center; }
+.lista_comparacao table td.valor { padding-right: 0; font: 14px/30px 'latobold'; text-transform: uppercase; }
+.lista_comparacao li:first-child table td { text-align: right; color: #6078a4; }
+.lista_comparacao li:first-child table th,
+.lista_comparacao table tr:nth-child(2n+1) td { background-color: #fbfbfb; }
+.lista_comparacao li:first-child table tr:last-child td { text-align: left; color: #6078a4; }
+.lista_comparacao table tr:last-child td { height: 56px; text-align: center; }
+.lista_comparacao table tr:last-child td h4 { margin-top: 10px; font: 12px/18px 'latobold'; text-transform: uppercase; color: #093c75; }
+.lista_comparacao table tr:last-child td .btAzul002 { margin-top: 15px; padding-left: 0; padding-right: 0; width: 134px; }
+
+  .ico_excluir { background: url("../img/close_mapaBoxInfoImovel.png") no-repeat right top; font: 11px/19px 'latobold'; text-transform: uppercase; text-decoration: none; color: #5b5b5b; display: block; height: 19px; padding-right: 25px; position: absolute; top: 8px; right: 8px; }
+
+  .ico_pos { width: 18px; height: 27px; display: block; margin: 0 auto; background: url(../img/sprite_comparacao.png) no-repeat left top; }
+  .ico_neg { width: 18px; height: 27px; display: block; margin: 0 auto; background: url(../img/sprite_comparacao.png) no-repeat left bottom; }
+
+  .ico_pos.txt,
+  .ico_neg.txt { width: auto; float: left; line-height: 27px; color: #7b7b7b; }
+  .ico_pos.txt { padding-left: 23px; margin-right: 10px; }
+  .ico_neg.txt { padding-left: 20px; }
+
+.bar_links { margin: 10px 0 24px 0; }
+.bar_links a { float: right; }
+.bar_links a.bt_voltar { float: right; font: 12px/13px 'latobold'; text-transform: uppercase; color: #5e76a2; text-decoration: none; } 
+.bar_links a.bt_voltar:after { content: "|"; margin: 0 10px; color: #e1e1e1; }
 
 /* menor q o ie9 */
 
