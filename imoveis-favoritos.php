@@ -151,6 +151,11 @@
                                                 <span class="">A partir de:</span>
                                                 <span class="price">R$ 986.000,00</span>
                                             </div>
+
+                                            <div class="row">   
+                                                <a href="#" class="icoMail001"></a>
+                                                <a href="#" class="icoPrinter002"></a>
+                                            </div>
                                         </div><!-- /wrapTxt -->
 
                                         <div class="wrapRight">    
@@ -193,6 +198,11 @@
                                                 <span class="line">De: R$ 986.000,00</span>
                                                 <span class="price destaq">R$ 986.000,00</span>
                                             </div>
+
+                                            <div class="row">   
+                                                <a href="#" class="icoMail001"></a>
+                                                <a href="#" class="icoPrinter002"></a>
+                                            </div>
                                         </div><!-- /wrapTxt -->
 
                                         <div class="wrapRight">    
@@ -203,6 +213,8 @@
                                             <div class="checkboxTypes002">
                                                 <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
                                             </div>
+
+                                            <a href="#" class="btHSBC"><img src="img/bt_hsbcSimulacao.jpg" height="34" width="231" alt=""></a>
                                         </div><!-- /wrapRight -->
                                     </div><!-- /infos -->
                                 </li>
@@ -235,6 +247,11 @@
                                             <div class="thatsPrice">
                                                 <span class="">A partir de:</span>
                                                 <span class="price">R$ 986.000,00</span>
+                                            </div>
+
+                                            <div class="row">   
+                                                <a href="#" class="icoMail001"></a>
+                                                <a href="#" class="icoPrinter002"></a>
                                             </div>
                                         </div><!-- /wrapTxt -->
 
@@ -279,6 +296,11 @@
                                                 <span class="">A partir de:</span>
                                                 <span class="price">R$ 986.000,00</span>
                                             </div>
+
+                                            <div class="row">   
+                                                <a href="#" class="icoMail001"></a>
+                                                <a href="#" class="icoPrinter002"></a>
+                                            </div>
                                         </div><!-- /wrapTxt -->
 
                                         <div class="wrapRight">    
@@ -322,6 +344,11 @@
                                                 <span class="line">De: R$ 986.000,00</span>
                                                 <span class="price destaq">R$ 986.000,00</span>
                                             </div>
+
+                                            <div class="row">   
+                                                <a href="#" class="icoMail001"></a>
+                                                <a href="#" class="icoPrinter002"></a>
+                                            </div>
                                         </div><!-- /wrapTxt -->
 
                                         <div class="wrapRight">    
@@ -332,6 +359,8 @@
                                             <div class="checkboxTypes002">
                                                 <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
                                             </div>
+
+                                            <a href="#" class="btHSBC"><img src="img/bt_hsbcSimulacao.jpg" height="34" width="231" alt=""></a>
                                         </div><!-- /wrapRight -->
                                     </div><!-- /infos -->
                                 </li>
@@ -363,6 +392,11 @@
                                             <div class="thatsPrice">
                                                 <span class="">A partir de:</span>
                                                 <span class="price">R$ 986.000,00</span>
+                                            </div>
+
+                                            <div class="row">   
+                                                <a href="#" class="icoMail001"></a>
+                                                <a href="#" class="icoPrinter002"></a>
                                             </div>
                                         </div><!-- /wrapTxt -->
 

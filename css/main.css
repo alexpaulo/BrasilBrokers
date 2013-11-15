@@ -899,6 +899,7 @@ body{background: #023671; overflow-x: hidden;}
 
   .icoPrinter001{display: inline-block; margin: 0; padding: 0; width: 20px; height: 19px; background: url(../img/spriteBbrokers001.png) -111px -109px no-repeat;}
   .icoPrinter002{display: inline-block; margin: 0; padding: 0; width: 65px; height: 13px; background: url(../img/spriteBbrokers001.png) -112px -158px no-repeat;}
+  .icoMail001{display: inline-block; margin: 0; padding: 0; width: 52px; height: 16px; background: url(../img/spriteBbrokers001.png) -192px -157px no-repeat;}
   .icoPDF001{display: inline-block; margin: 0; padding: 0; width: 20px; height: 20px; background: url(../img/spriteBbrokers001.png) -111px -133px no-repeat;}
 
   .wrap_empreendimentoPersonalizado .contentArea{display: block; border: 14px solid #fff; background: #dbdbdb;}
@@ -2002,12 +2003,18 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .imoveis_favoritos .result { float: left; padding: 4px 0 0 0; font: 12px 'latoregular', Arial; color:#7b7b7b;}
 .imoveis_favoritos .result strong{font-family: 'latobold';}
 .imoveis_favoritos .selectType { margin-right: 0; }
-.imoveis_favoritos .wrapRight { float: right; width: 180px; }
+.imoveis_favoritos .wrapRight { float: right; width: 230px; }
 .imoveis_favoritos .wrapRight .btAzul002 { margin: 8px 0 15px 0; }
 .imoveis_favoritos .wrapRight .btAzul002,
 .imoveis_favoritos .wrapRight .checkboxTypes002  { float: right; }
+.imoveis_favoritos .wrapRight .btHSBC { float: right; display: block; margin-top: 25px; }
 .imoveis_favoritos .lista_resultado_da_busca li { position: relative; }
+.imoveis_favoritos .lista_resultado_da_busca .wrapImg .thatsImg { height: 112px; }
+.imoveis_favoritos .lista_resultado_da_busca .thatsLabel.lancamento,
+.imoveis_favoritos .lista_resultado_da_busca .thatsLabel.pronto { top: 100px; }
 
+.icoMail001 { position: relative; top: 2px; margin-right: 20px; }
+.icoPrinter002 { }
 
 /* ==========================================================================
    FALE CONOSCO
