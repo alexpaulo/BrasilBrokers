@@ -2096,6 +2096,7 @@ hr.bdWhite { border-color: #ffffff; margin-right: 6px; }
 
 .trabalhe_conosco.form_candidato .box_form { padding: 18px 15px; }
 .trabalhe_conosco.form_candidato .box_form legend { font: 12px/22px 'latobold'; }
+.trabalhe_conosco.form_candidato .titleDefault.type05:first-child { margin-top: 5px; }
 .form_candidato h3.label { color: #808080; font: 12px/12px 'latobold'; margin-bottom: 10px;  }
 .form_candidato .idiomas .btAzul004 { margin: 0 6px 10px 0; }
 
@@ -2128,7 +2129,6 @@ hr.bdWhite { border-color: #ffffff; margin-right: 6px; }
 .form_candidato .type_rdio { margin-bottom: 5px; }
 .form_candidato .type_rdio input { margin-right: 5px; }
 .form_candidato .checkboxTypes003.data { margin-top: 27px; }
-
 
 .ico_data { position: relative; margin-right: 20px; }
 .ico_data:after { content: ""; width: 21px; height: 26px; display: inline-block; position: absolute; top: -7px; right: -6px; background: url(../img/ico_data.png) no-repeat; }
