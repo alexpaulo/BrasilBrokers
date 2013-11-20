@@ -654,5 +654,11 @@ $(function(){
 			enable:true
 		}
 	});
+
+
+	// custom input file
+	$('.custom-upload input[type=file]').change(function(){
+	    $(this).next().find('input').val($(this).val());
+	});
     
 });
