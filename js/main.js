@@ -330,6 +330,15 @@ $(function(){
 		}
 
 
+	//lightbox mensagem form:
+		function mostrarLightBox_mensagem(){
+			$('html, body').stop(true,true).animate({ scrollTop:200 }, 1000);
+			
+			$('.blackOut').fadeIn(1000);
+			$('.wrap_modalMensagem').delay(1000).fadeIn(500);
+		}
+
+
 	//lightbox Solicita Informacoes:
 		function mostrarLightBox_solicita(){
 			$('html, body').stop(true,true).animate({ scrollTop:200 }, 1000);
@@ -404,6 +413,10 @@ $(function(){
 			.on('click', '.wrap_modalSolicita .wrap_modalSolicita_fechar', function(){
 				$('.wrap_modalSolicita').fadeOut(500);
 				$('.blackOut').fadeOut(1000);
+			})
+			.on('click', '.wrap_modalMensagem .wrap_modalMensagem_fechar', function(){
+				$('.wrap_modalMensagem').fadeOut(500);
+				$('.blackOut').fadeOut(1000);
 			});
 
 		// --------------------------------------------------------------- > mostra o lightbox pras telas de teste:
@@ -412,6 +425,9 @@ $(function(){
 		}
 		if( $('.wrap_modalLogin').length > 0 ){
 			mostrarLightBox_login()
+		}
+		if( $('.wrap_modalMensagem').length > 0 ){
+			mostrarLightBox_mensagem()
 		}
 		if( $('.wrap_modalSelectBairro').length > 0 ){
 			mostrarLightBox_bairros()
@@ -646,6 +662,21 @@ $(function(){
 	$( "#accordion" ).accordion({
 		heightStyle: "content",
 		collapsible: true
+	});
+
+	// accordion central vendas
+	$( ".central_vendas .accordion" ).accordion({
+		heightStyle: "content",
+		active: false,
+    	collapsible: true 
+	});
+
+
+	// accordion relacionamento com cliente
+	$( ".relacionamento .accordion" ).accordion({
+		heightStyle: "content",
+		active: false,
+    	collapsible: true 
 	});
 
 

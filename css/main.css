@@ -960,6 +960,7 @@ body{background: #023671; overflow-x: hidden;}
   .w50{width: 50px !important;}
   .w60{width: 60px !important;}
   .w70{width: 70px !important;}
+  .w78{width: 78px !important;}
   .w80{width: 80px !important;}
   .w82{width: 82px !important;}
   .w90{width: 90px !important;}
@@ -1633,6 +1634,7 @@ body{background: #023671; overflow-x: hidden;}
 .box_default.bdCinza { border-color: #ececec; }
 
 .box_cinza { background: #f1f1f1; padding: 20px 14px; }
+.box_yellow { background: #eaf6c9; padding: 18px 15px; }
 
 .txtMgNone p { margin: 0; }
 
@@ -1995,6 +1997,46 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
    MEUS IMOVEIS
    ========================================================================== */
 
+.meus_imoveis { }
+.meus_imoveis .box_cinza { padding: 30px; margin: 15px 0; border-top: solid 1px #ececec; }
+.meus_imoveis .box_cinza h2 { font-size: 16px; }
+.meus_imoveis .box_cinza p { margin-top: 10px; font: 12px 'latoregular', Arial; color:#7b7b7b; }
+
+
+.meus_imoveis .lista_buscas_salvas li,
+.meus_imoveis .lista_resultado_da_busca li { position: relative; margin-top: 38px; }
+.meus_imoveis .lista_buscas_salvas li p.txt_top,
+.meus_imoveis .lista_resultado_da_busca li p.txt_top { position: absolute; top: -38px; left: 0; padding: 0; font: 14px/38px 'latoregular', Arial; color:#7b7b7b; text-align: left; }
+.meus_imoveis .lista_buscas_salvas li p.txt_top span,
+.meus_imoveis .lista_resultado_da_busca li p.txt_top span { font-family: 'latobold'; }
+
+.meus_imoveis .lista_buscas_salvas li .title { border: none; margin: 0; }
+.meus_imoveis .lista_buscas_salvas li .ico_excluir,
+.meus_imoveis .lista_resultado_da_busca li .ico_excluir { right: 22px; }
+.meus_imoveis .lista_buscas_salvas li .wrapRight,
+.meus_imoveis .lista_resultado_da_busca li .wrapRight { float: right; max-width: 145px; }
+.meus_imoveis .lista_buscas_salvas li .wrapRight .btAzul002,
+.meus_imoveis .lista_resultado_da_busca li .wrapRight .btAzul002 { float: right; }
+.meus_imoveis .lista_resultado_da_busca li .wrapRight .checkboxTypes002 { float: right; margin-top: 15px; }
+
+.meus_imoveis .lista_buscas_salvas .btAzul002 { margin-top: 30px; }
+.meus_imoveis .lista_buscas_salvas .wrapTit { float: left; width: 140px; }
+.meus_imoveis .lista_buscas_salvas .wrapTxt { width: 360px; border-left: 1px solid #d4d4d4; padding-left: 30px; margin-left: 30px; margin-bottom: 10px; }
+.meus_imoveis .lista_buscas_salvas .wrapTit h5,
+.meus_imoveis .lista_buscas_salvas .wrapTxt h5 { font: 14px 'latobold', Arial; color:#6078a4; text-transform: none; }
+.meus_imoveis .lista_buscas_salvas .wrapTit p, 
+.meus_imoveis .lista_buscas_salvas .wrapTxt p,
+.meus_imoveis .lista_buscas_salvas p.clear { margin-top: 10px; font: 12px 'latoregular', Arial; color:#7b7b7b; }
+.meus_imoveis .lista_buscas_salvas p.clear span { font-family: 'latobold'; }
+
+.meus_imoveis .titleDefault.type05 { position: relative; border: none; padding: 0; margin-bottom: 50px; }
+.meus_imoveis .titleDefault.type05 a { text-transform: uppercase; font: 12px 'cartogothic_stdbold', Arial; color:#5e76a2; text-decoration: none; position: absolute; right: 0; top: 4px;  }
+
+.icoSearch { display: inline-block; width: 13px; height: 13px; margin-left: 5px; position: relative; top: 2px; background: url(../img/ico_search.png) no-repeat; }
+
+
+
+
 /* meus dados */
 .meus_dados { }
 .meus_dados .box_form a { color: #6078a4; font: 12px/22px 'latoregular'; }
@@ -2024,7 +2066,7 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .aplicativos .box_form .btAzul004 { float: right; margin-top: 20px; }
 
 .imoveis_favoritos { }
-.imoveis_favoritos .result { float: left; padding: 4px 0 0 0; font: 12px 'latoregular', Arial; color:#7b7b7b;}
+.imoveis_favoritos .result { float: left; padding: 4px 0 0 0; font: 12px 'latoregular', Arial; color:#7b7b7b; }
 .imoveis_favoritos .result strong{font-family: 'latobold';}
 .imoveis_favoritos .selectType { margin-right: 0; }
 .imoveis_favoritos .wrapRight { float: right; width: 230px; }
@@ -2037,13 +2079,143 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .imoveis_favoritos .lista_resultado_da_busca .thatsLabel.lancamento,
 .imoveis_favoritos .lista_resultado_da_busca .thatsLabel.pronto { top: 100px; }
 
+.imoveis_favoritos .box_form textarea { width: 514px; height: 100px; }
+
+  /* mensagem alerta */
+  .wrap_modalMensagem{position: absolute; z-index: 1001; display: none; margin: 0 0 0 -318px; padding: 30px; top: 225px; left: 50%; width: 636px; height: auto; background: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+  .wrap_modalMensagem_fechar{ float: right; display: inline-block; margin: 0; padding-left: 22px; padding-right: 22px; }
+  .wrap_modalMensagem_title{ display: block; text-align: center; font: 18px 'latobold'; color: #6078a4; text-transform: none; margin-top: 55px; margin-bottom: 30px; }
+  .wrap_modalMensagem_content { border: none; padding: 15px; margin: 0; }
+  .wrap_modalMensagem_content p { text-align: center; font: 12px 'latoregular', Arial; color:#7b7b7b; margin-bottom: 80px; } 
+
+
+
 .icoMail001 { position: relative; top: 2px; margin-right: 20px; }
 .icoPrinter002 { }
+
+/* gerenciar anuncios de imoveis */
+.gerenciar_anuncios .subtitleDefault { margin-bottom: 25px; }
+.gerenciar_anuncios .btAzul003 { height: 42px; line-height: 42px; padding: 0 15px; margin-bottom: 10px; font-size: 19px; font-family: "cartogothic_stdregular"; }
+.gerenciar_anuncios .lista_resultado_da_busca li { position: relative; }
+.gerenciar_anuncios .lista_resultado_da_busca .wrapImg .thatsImg { height: 112px; }
+.gerenciar_anuncios .lista_resultado_da_busca .thatsLabel.lancamento,
+.gerenciar_anuncios .lista_resultado_da_busca .thatsLabel.pronto { top: 100px; }
+
+.gerenciar_anuncios .lista_resultado_da_busca .title .floatLeft,
+.gerenciar_anuncios .lista_resultado_da_busca .title .floatRight { display: table; font: 12px 'latoregular', Arial; color: #7b7b7b; }
+.gerenciar_anuncios .lista_resultado_da_busca .title strong {display: inline; width: auto; float: none; font: 12px 'latobold', Arial; color: #7b7b7b; }
+
+.gerenciar_anuncios .wrapRight { float: right; width: 190px; }
+.gerenciar_anuncios .wrapRight .btAzul002 { margin: 8px 0 15px 0; width: 100%; }
+.gerenciar_anuncios .wrapRight .btAzul002:first-child { margin-bottom: 5px; }
+.gerenciar_anuncios .wrapRight p { font: 12px 'latoregular', Arial; color: #7b7b7b; }
+
+/* solicitar busca de imoveis */
+.solicitar_busca { }
+.solicitar_busca .box_form { position: relative; padding: 25px 15px; }
+.solicitar_busca .box_form .banner { position: absolute; top: 23px; right: 25px; }
+
+.solicitar_busca .box_form fieldset { max-width: 530px; } 
+.solicitar_busca .box_form legend { width: 462px; border-bottom: solid 1px #dfdfdf; padding-bottom: 10px; margin-bottom: 10px; font: 18px 'latoregular', Arial; color:#6078a4; }
+.solicitar_busca .box_form h4 { font: 12px 'latobold', Arial; color:#808080; margin-bottom: 10px; }
+.solicitar_busca .box_form label,
+.solicitar_busca .box_form h4 { max-width: 430px; }
+.solicitar_busca .box_form textarea { width: 430px; height: 80px; }
+.solicitar_busca .box_form .radio label { display: inline-block; width: 78px; margin-right: 10px; }
+.solicitar_busca .box_form .radio input { margin-bottom: 20px; margin-right: 5px; }
+.solicitar_busca .box_form .selectType { margin: 0 10px 10px 0; }
+.solicitar_busca .box_form .selectType .thatsTxt { font-family: 'cartogothic_stdregular'; }
+
+/* buscas salvas */
+.buscas_salvas .subtitleDefault { line-height: 18px; }
+.buscas_salvas .result { float: left; padding: 4px 0 0 0; font: 12px 'latoregular', Arial; color:#7b7b7b; }
+.buscas_salvas .result strong{font-family: 'latobold';}
+
+
+.lista_buscas_salvas {display: block; margin: 0; padding: 0;}
+  
+  .lista_buscas_salvas > li{display: block; padding: 12px 22px; background: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; margin-top: 30px; margin-bottom: 50px; border-top: 1px solid #093b74; }
+  .lista_buscas_salvas li p.txt_top { position: absolute; top: -30px; right: 0; padding: 0 22px; font: 12px/30px 'latoregular', Arial; color:#7b7b7b; text-align: right; }
+  .lista_buscas_salvas li p.txt_top span { font-family: 'latobold'; }
+  .lista_buscas_salvas li .ico_excluir { right: 22px; line-height: 23px; }
+
+  .lista_buscas_salvas .title{margin: 0 0 10px 0; padding: 0 0 10px 0; border-bottom: 1px solid #ececec; text-transform: uppercase; }
+  .lista_buscas_salvas .title strong{display: inline-block; width: 540px; float: left; font: 16px 'latobold', Arial; color: #6078a4;}
+  .lista_buscas_salvas .infos{}
+  .lista_buscas_salvas .wrapTxt{float: left; width: 535px; margin: 0; }
+  .lista_buscas_salvas .wrapTxt h5 { font: 14px 'latobold', Arial; color:#6078a4; text-transform: uppercase; }
+  .lista_buscas_salvas .wrapTxt p { margin-top: 10px; font: 12px 'latoregular', Arial; color:#7b7b7b; }
+  .lista_buscas_salvas .wrapTxt p strong  { font-family: 'latobold', Arial; }
+
+  .lista_buscas_salvas .wrapRight { float: right; }    
+
 
 /* ==========================================================================
    FALE CONOSCO
    ========================================================================== */
 .fale_conosco { }
+
+
+/* Central de vendas */
+.thatsbox { background: url("../img/spriteBbrokers001.png") no-repeat; padding: 34px 0 0 32px; width: 192px; height: 34px; display: inline-block; }
+.thatsbox a { color: #ffffff; font-size: 25px; text-decoration: none; font-family: 'latobold'; }
+.thatsbox a span { font-size: 16px; }
+.thatsbox.pronto     { background-position: -37px -188px; }
+.thatsbox.aluguel    { background-position: -37px -262px; }
+.thatsbox.lancamento { background-position: -37px -336px; }
+
+.icoMail002,
+.icoOnline { display: inline-block; line-height: 37px; height: 37px; margin-right: 40px; text-transform: uppercase; color: #5e76a2; font-family: 'cartogothic_stdbold'; font-size: 12px; text-decoration: none; } 
+.icoMail002 span { margin-right: 5px; float: left; width: 37px; height: 37px; display: inline-block; background: url("../img/spriteBbrokers001.png") no-repeat 0 -188px; }
+.icoOnline  span { margin-right: 5px; float: left; width: 37px; height: 37px; display: inline-block; background: url("../img/spriteBbrokers001.png") no-repeat 0 -238px; }
+
+.central_vendas { }
+.central_vendas .thatsbox { margin-top: 15px; margin-bottom: 15px; }
+.central_vendas .thatsbox.aluguel  { margin-left: 20px; margin-right: 20px; }
+.central_vendas hr { border-color: #e0e0e0; margin: 20px 0 10px 0; }
+.central_vendas .titleDefault.type01 { margin-bottom: 10px; }
+.central_vendas .titleDefault.type01 .ver_mais { margin-top: 4px; }
+
+.central_vendas .accordion { }
+.central_vendas .accordion h3 { font: 12px/26px 'latoregular'; color: #121212; text-transform: uppercase; padding-left: 8px; background: url(../img/arrow_list.png) no-repeat left center; }
+.central_vendas .accordion p { font: 12px/18px 'latoregular'; color: #717171; padding: 0 8px; margin-bottom: 10px; }
+
+.central_vendas .box_default .box_form { padding: 40px 72px; }
+.central_vendas .box_default .box_form input[type="text"], 
+.central_vendas .box_default .box_form input[type="email"], 
+.central_vendas .box_default .box_form input[type="password"],
+.central_vendas .box_default .box_form textarea { width: 550px; }
+.central_vendas .box_default .box_form textarea { height: 100px; }
+.central_vendas .box_default .box_form input.mail { width: 327px; }
+.central_vendas .box_default .box_form select { width: 205px; }
+.central_vendas .box_default .btAzul004 { float: right; margin-right: 0; }
+
+/* relacionamento com o cliente */
+.relacionamento { }
+.relacionamento .thatsbox { margin-top: 15px; margin-bottom: 15px; }
+.relacionamento .thatsbox.aluguel  { margin-left: 20px; margin-right: 20px; }
+.relacionamento hr { border-color: #e0e0e0; margin: 20px 0 10px 0; }
+.relacionamento .titleDefault.type01 { margin-bottom: 10px; }
+.relacionamento .titleDefault.type01 .ver_mais { margin-top: 4px; }
+
+.relacionamento .accordion { }
+.relacionamento .accordion h3 { font: 12px/26px 'latoregular'; color: #121212; text-transform: uppercase; padding-left: 8px; background: url(../img/arrow_list.png) no-repeat left center; }
+.relacionamento .accordion p { font: 12px/18px 'latoregular'; color: #717171; padding: 0 8px; margin-bottom: 10px; }
+
+.relacionamento .box_default .box_form { padding: 40px 72px; }
+.relacionamento .box_default .box_form input[type="text"], 
+.relacionamento .box_default .box_form input[type="email"], 
+.relacionamento .box_default .box_form input[type="password"],
+.relacionamento .box_default .box_form textarea { width: 550px; }
+.relacionamento .box_default .box_form textarea { height: 100px; }
+.relacionamento .box_default .box_form input.mail { width: 327px; }
+.relacionamento .box_default .box_form select { width: 205px; }
+.relacionamento .box_default .btAzul004 { float: right; margin-right: 0; }
+
+/* atendimento */
+.atendimento .box_default .box_form { padding: 40px 90px 40px 90px; }
+.atendimento .box_default .box_form textarea { width: 514px; height: 100px; margin-bottom: 15px; }
+
 
 /* Fale com a Brasil Brokers */
 .falebb .info { margin: 30px 0; }
@@ -2089,6 +2261,28 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .trabalhe_conosco .box_form .btAzul004 { margin-top: 20px; }
 .trabalhe_conosco .box_form legend { color: #808080; font: 12px/16px 'latoregular'; }
 .trabalhe_conosco .alert { display: table; padding: 8px 15px; margin-top: 20px; border: solid 1px #dcdcdc; background: #eaeaea; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+
+/* seja um */
+.seja_um { }
+.seja_um .box_default img { width: 100%; }
+
+.seja_um .box_yellow { margin-top: 25px; }
+.seja_um .box_yellow p { color: #6078a4; margin-bottom: 10px; }
+.seja_um .box_yellow span { text-transform: uppercase; color: #093c75; font-size: 13px; font-family: 'latobold';  }
+.seja_um .box_yellow ul.list-arrow { width: 180px; float: left; }
+.seja_um .box_yellow ul.list-arrow li { color: #6078a4; }
+
+.seja_um .box_form { padding: 30px 60px; }
+.seja_um .box_form .type_txt { width: 573px; }
+.seja_um .box_form .type_txt.ddd { width: 18px; }
+.seja_um .box_form .type_txt.tel { width: 132px; }
+.seja_um .box_form .type_txt.mail { width: 350px; }
+.seja_um .box_form .fake-file input { width: 410px; margin-bottom: 0; }
+.seja_um .box_form .btAzul004 { margin-top: 20px; }
+.seja_um .box_form legend { color: #808080; font: 12px/16px 'latoregular'; }
+.seja_um .alert { display: table; padding: 8px 15px; margin-top: 20px; border: solid 1px #dcdcdc; background: #eaeaea; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
 
 
 /* formulario candidato */
@@ -2244,6 +2438,43 @@ hr.bdWhite { border-color: #ffffff; margin-right: 6px; }
 .bar_links a.bt_voltar { float: right; font: 12px/13px 'latobold'; text-transform: uppercase; color: #5e76a2; text-decoration: none; } 
 .bar_links a.bt_voltar:after { content: "|"; margin: 0 10px; color: #e1e1e1; }
 
+
+/* VENDA OU ALUGUE */
+p.arrow { font: 12px/18px 'latoregular'; color: #7b7b7b; padding-left: 8px; background: url(../img/arrow_list.png) no-repeat left center; }
+
+.venda_alugue { }
+.venda_alugue .bdCinza h4 { font: 14px/18px 'latoregular'; color: #000000; }
+
+.venda_alugue .row { }
+.venda_alugue .row .box_avalie { width: 252px; height: 401px; padding: 26px; display: block; margin: 15px 0; border: solid 4px #ffffff; background: url(../img/bg_box_avalie.jpg); }
+.venda_alugue .row .box_avalie h4 { background: rgba(34,91,148,0.6); float: right; display: table; padding: 10px 15px 6px 35px; margin-right: -26px; margin-bottom: 35px; text-transform: uppercase; font: 25px/17px 'latoregular'; color: #ffffff; }
+.venda_alugue .row .box_avalie h4 span { display: block; font-size: 15px; line-height: 17px; }
+.venda_alugue .row .box_avalie .cont { float: left; }
+.venda_alugue .row .box_avalie .cont h5 { color: #ffffff; font: 20px/14px 'latobold'; margin-bottom: 20px; }
+.venda_alugue .row .box_avalie .cont p  { color: #ffffff; font: 14px/18px 'latoregular'; margin-bottom: 20px; }
+.venda_alugue .row .box_avalie .cont .btAzul004 { }
+
+.venda_alugue .row .box_default { border-top: solid 4px #a2cd27; width: 249px; min-height: 397px; padding: 30px; }
+.venda_alugue .row .box_default hr { border-color: #86a921; margin: 10px 0 15px 0; }
+.venda_alugue .row .box_default.anuncie { margin-left: 15px; margin-right: 15px; }
+.venda_alugue .row .box_default.anuncie h4 { color: #37689c; font: 21px/17px 'latobold'; }
+.venda_alugue .row .box_default.anuncie h5 { color: #37689c; font: 14px/17px 'latobold'; }
+.venda_alugue .row .box_default.anuncie p { color: #7b7b7b; font: 12px/17px 'latoregular'; margin-bottom: 0; }
+.venda_alugue .row .box_default.anuncie ol { }
+.venda_alugue .row .box_default.anuncie ol li { padding-left: 28px; min-height: 50px; margin-bottom: 10px; position: relative; }
+.venda_alugue .row .box_default.anuncie ol li:last-child { margin-bottom: 0; }
+.venda_alugue .row .box_default.anuncie ol li .num { position: absolute; top: 0; left: 0; width: 18px; height: 18px; display: block; text-align: center; background: #a2cd27; color: #ffffff; font: 12px/18px 'latobold'; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.venda_alugue .row .box_default.anuncie ol li strong { display: block; line-height: 12px; }
+
+.venda_alugue .row .box_default p.bold { font: 14px/18px 'latobold'; color: #7b7b7b; }
+.venda_alugue .row .box_default p.bold a { color: #37689c; }
+
+/* confirmar dados */
+.confirmar_dados { }
+.confirmar_dados .box_default { padding: 40px 10px; }
+.confirmar_dados .box_default a { color: #6078a4; }
+
+
 /* menor q o ie9 */
 
 .lt-ie9{}
@@ -2279,6 +2510,9 @@ hr.bdWhite { border-color: #ffffff; margin-right: 6px; }
    ========================================================================== */
 .ir {background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px;}
 .ir:before {content: ""; display: block; width: 0; height: 150%;}
+.block { display: block; }
+.bold { font-family: 'latobold'; }
+.ocult { visibility: hidden;}
 .hidden {display: none !important; visibility: hidden;}
 .visuallyhidden {border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto;}

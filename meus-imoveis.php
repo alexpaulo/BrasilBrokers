@@ -20,7 +20,6 @@
         <![endif]-->
     </head>
     <body class="meus_imoveis">
-
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -87,12 +86,122 @@
                         </h1>
                         
                         <h3 class="subtitleDefault">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nulla, iste, explicabo repudiandae facilis facere fugit illum autem accusantium laboriosam rem cum in repellendus aliquid ad. Maiores, assumenda impedit dolore!
+                            Aqui você pode visualizar seus imóveis marcados como favoritos, suas buscas salvas e gerenciar seus anúncios.
                         </h3>
 
-                        <div class="box_default row">
-                            
-                        </div>
+                        <div class="box_cinza">
+                            <h2 class="titleDefault">Olá Ana maria!</h2>
+                            <p>
+                                Você ainda não completou seu cadastro. Complete e receba ofertas exclusivas no seu e-mail.
+                            </p>
+                        </div><!-- /box_cinza -->
+                        
+                        <h4 class="titleDefault type05">
+                            Imóveis Favoritos
+                            <a href="#">ver todos</a>
+                        </h4>
+                        
+                        <ul class="lista_resultado_da_busca">
+                            <li>
+
+                                <p class="txt_top">
+                                    Último imóvel adicionado - Adicionado em: <span>dd/mm/aaaa | 07:56</span>
+                                </p>
+                                <div class="title">
+                                    <strong>RESIDENCIAL BARCELONETA</strong>
+                                    
+                                    <a href="#" class="ico_excluir">excluir</a>
+                                    <div class="clear"></div>
+                                </div>
+                                
+                                <div class="infos row">
+                                    <div class="wrapImg">
+                                        <div class="thatsImg">
+                                            <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                        </div>
+
+                                        <div class="thatsLabel exclusivo"></div>
+                                        <div class="thatsLabel lancamento"></div>
+                                        
+                                        <div class="clear"></div>
+                                    </div><!-- /wrapImg -->
+
+                                    <div class="wrapTxt">
+                                        <div class="thatsDescr">
+                                            Santana - São Paulo - SP<br>
+                                            380.00m² de área privativa<br>
+                                            1, 2 ou 3 Dorms (sendo 2 suítes)
+                                        </div>
+                                        
+                                        <div class="thatsPrice">
+                                            <span class="">A partir de:</span>
+                                            <span class="price">R$ 986.000,00</span>
+                                        </div>
+
+                                        <div class="row">   
+                                            <a href="#" class="icoMail001"></a>
+                                            <a href="#" class="icoPrinter002"></a>
+                                        </div>
+                                    </div><!-- /wrapTxt -->
+
+                                    <div class="wrapRight">    
+                                        <a href="#" title="" class="btAzul002">
+                                            <span>Mais detalhes</span>
+                                        </a>
+
+                                        <div class="checkboxTypes002">
+                                            <a href="javascript:void(0);" title=""><input type="hidden" value="0" name="" id="" class="thatsCheckbox">Comparar imóvel</a>
+                                        </div>
+                                    </div><!-- /wrapRight -->
+                                </div><!-- /infos -->
+                            </li>
+                        </ul><!-- /lista_resultado_da_busca -->
+                        
+                        <h4 class="titleDefault type05">
+                            Buscas Salvas
+                            <a href="#">ver todas</a>
+                        </h4>
+                        
+                        <ul class="lista_buscas_salvas">
+                            <li>
+                                <p class="txt_top">
+                                    Última busca salva - Busca salva em: <span>dd/mm/aaaa | 07:56</span>
+                                </p>
+                                <div class="title">
+                                    <a href="#" class="ico_excluir">excluir</a>
+                                    <div class="clear"></div>
+                                </div>
+                                
+                                <div class="infos row">
+                                    <div class="wrapTit">
+                                        <h5>Nome da busca</h5>
+                                        <p>Nome cadastrado</p>
+                                    </div><!-- /wrapTit -->
+
+                                    <div class="wrapTxt">
+                                        <h5>Critérios</h5>
+                                        <p>
+                                            São Paulo - SP - Brasil <br/>
+                                            Vila Mariana, Vila Olímpia, Itaim Bibi, Morumbi, Vila Madalena  <br/>
+                                            Tipo do imóvel - <strong>R$ 986.000,00</strong>
+                                        </p>
+                                    </div><!-- /wrapTxt -->
+
+                                    <div class="wrapRight">    
+                                        <a href="#" title="" class="btAzul002">
+                                            <span>Exibir busca</span>
+                                            <span class="icoSearch"></span>
+                                        </a>
+                                    </div><!-- /wrapRight -->
+                                    <p class="clear">
+                                        Receber ofertas com esses critérios por e-mail » Periodicidade: <span>01 vez ao dia</span>
+                                    </p>
+                                </div><!-- /infos -->
+                            </li>
+                        </ul>
+                       
+                        <div class="clear"></div>
+                    
                     </article><!-- /article -->
                     <div class="clear"></div>
                     

@@ -19,14 +19,13 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="fale_conosco trabalhe_conosco">
+    <body class="fale_conosco seja_um">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <div id="master">
             <?php include("include/header.php") ?>
-
-
+            
             <section class="section">
                 <div class="wrap">
                     <div class="row">
@@ -44,7 +43,7 @@
                                 </li> 
                                 <li>
                                     <a href="#">
-                                        <span>Trabalhe conosco</span>
+                                        <span>Seja um Corretor</span>
                                     </a>
                                 </li>  
                             </ol><!-- /breadcrumb -->
@@ -87,51 +86,15 @@
                     <article class="article col2">
 
                         <h1 class="titleDefault">
-                            Trabalhe <span class="verde">Conosco</span>
+                            Seja um corretor credenciado <span class="verde">à BrasilBrokers</span>
                         </h1>
 
                         <div class="box_default row">    
-                            <p class="mBottom0">
-                                Utilize uma das formas abaixo para se candidatar às vagas administrativas da Brasil Brokers
+                            <p>
+                                Faça parte do maior e mais completo grupo de venda de imóveis do país. São mais de 17 mil corretores credenciados altamente qualificados.  Envie-nos um e-mail que entraremos em contato.
                             </p>
 
-                            <p class="type01">
-                                Para ver as <strong>VAGAS</strong> disponíveis, <a href="#">clique aqui</a>.
-                            </p>
-                            
-                            <img alt="" src="img/img_fale_trabalheconosco.jpg">
-                            
-                            <h2 class="titleDefault type05">
-                                Benefícios de trabalhar na Brasil Brokers
-                            </h2>
-
-                            <div class="box_cinza row">
-                                
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam interdum pulvinar nibh. Maecenas eget nunc.
-                                </p>
-
-                                <ul class="list-arrow">
-                                    <li>
-                                        Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li>
-                                        Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li>
-                                        Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li>
-                                        Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li>
-                                        Lorem ipsum dolor sit amet.
-                                    </li>
-                                    <li>
-                                        Lorem ipsum dolor sit amet.
-                                    </li>
-                                </ul>
-                            </div><!-- /box_cinza -->
+                            <img alt="" src="img/img_fale_sejaum.jpg">
                             
                             <h2 class="titleDefault type05">
                                 Enviar currículo
@@ -178,11 +141,27 @@
                                 </fieldset>
                             </form><!-- /box_form -->
                             
-                            <p class="alert">
-                                Se você não possui currículo para enviar, você pode fazer um cadastro completo <a href="formulario-candidato.php">clicando aqui</a>. 
-                            </p>
+                            <div class="box_yellow row">
+                            
+                                <p>
+                                    Faça seu curso de TTI por um preço bem acessível! Aproveita nossa parceria com o <span>Instituto Monitor</span>. <br>
+                                    Escolha a região onde quer atuar, temos <span>18 lojas</span>
+                                </p>
 
+                                <ul class="list-arrow">  
+                                    <li>Grande São Paulo</li>
+                                    <li>ABC</li>
+                                    <li>AlphaVille</li>
+                                </ul>
+                                <ul class="list-arrow">
+                                    <li>Campinas</li>
+                                    <li>Jundiaí</li>
+                                </ul>
+
+                            </div><!-- / -->
+                        
                         </div><!-- /box_default -->
+
                         
                     </article><!-- /article -->
                     <div class="clear"></div>

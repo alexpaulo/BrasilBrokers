@@ -19,7 +19,7 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="meus_imoveis gerenciar_anuncios">
+    <body class="gerenciar_anuncios">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -40,7 +40,7 @@
                                     <a href="#">
                                         <span>Meus Imóveis</span>
                                     </a>
-                                </li> 
+                                </li>  
                                 <li>
                                     <a href="#">
                                         <span>Gerenciar Anúncios de Imóveis</span>
@@ -87,16 +87,299 @@
                     <article class="article col2">
 
                         <h1 class="titleDefault">
-                            Gerenciar <span class="verde">Anúncios de Imóveis</span>
+                            Gerenciar anuncios <span class="verde">de imóveis</span>
                         </h1>
                         
                         <h3 class="subtitleDefault">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nulla, iste, explicabo repudiandae facilis facere fugit illum autem accusantium laboriosam rem cum in repellendus aliquid ad. Maiores, assumenda impedit dolore!
+                            Aqui você pode alterar os dados de seu anúncio como, por exemplo, valores, número de contato, etc.
+                            <span class="block bold">Você precisa fazer login.</span>
                         </h3>
 
-                        <div class="box_default row">
-                            
-                        </div>
+                        <a href="#" title="" class="btAzul003">
+                            <span>Cadastrar anúncio</span>
+                        </a> 
+                        <div class="wrap_resultado_da_busca row">
+                            <ul class="lista_resultado_da_busca">
+                                <li>
+                                    <div class="title row">
+                                        <div class="floatLeft">Data do envio do cadastro: <strong>17/06/2013</strong></div>                                                      
+                                        <div class="floatRight">Data da publicação: <strong>17/06/2013</strong></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel exclusivo"></div>
+                                            <div class="thatsLabel lancamento"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="">A partir de:</span>
+                                                <span class="price">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Ver anúncio publicado</span>
+                                            </a> 
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Alterar anúncio</span>
+                                            </a>
+                                            <p>
+                                                Ao alterar um anuncio o mesmo estará sujeito a nova avaliação
+                                            </p>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+
+                                <li>
+                                    <div class="title row">
+                                        <div class="floatLeft">Data do envio do cadastro: <strong>17/06/2013</strong></div>                                                      
+                                        <div class="floatRight">Data da publicação: <strong>17/06/2013</strong></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel pronto"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="line">De: R$ 986.000,00</span>
+                                                <span class="price destaq">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002 ocult">
+                                                <span>Ver anúncio publicado</span>
+                                            </a> 
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Alterar anúncio</span>
+                                            </a>
+                                            <p>
+                                                Ao alterar um anuncio o mesmo estará sujeito a nova avaliação
+                                            </p>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+
+                                <li>
+                                    <div class="title row">
+                                        <div class="floatLeft">Data do envio do cadastro: <strong>17/06/2013</strong></div>                                                      
+                                        <div class="floatRight">Data da publicação: <strong>17/06/2013</strong></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel pronto"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="line">De: R$ 986.000,00</span>
+                                                <span class="price destaq">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002 ocult">
+                                                <span>Ver anúncio publicado</span>
+                                            </a> 
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Alterar anúncio</span>
+                                            </a>
+                                            <p>
+                                                Ao alterar um anuncio o mesmo estará sujeito a nova avaliação
+                                            </p>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+
+                                <li>
+                                    <div class="title row">
+                                        <div class="floatLeft">Data do envio do cadastro: <strong>17/06/2013</strong></div>                                                      
+                                        <div class="floatRight">Data da publicação: <strong>17/06/2013</strong></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel pronto"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="line">De: R$ 986.000,00</span>
+                                                <span class="price destaq">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002 ocult">
+                                                <span>Ver anúncio publicado</span>
+                                            </a> 
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Alterar anúncio</span>
+                                            </a>
+                                            <p>
+                                                Ao alterar um anuncio o mesmo estará sujeito a nova avaliação
+                                            </p>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+
+                                <li>
+                                    <div class="title row">
+                                        <div class="floatLeft">Data do envio do cadastro: <strong>17/06/2013</strong></div>                                                      
+                                        <div class="floatRight">Data da publicação: <strong>17/06/2013</strong></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel pronto"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="line">De: R$ 986.000,00</span>
+                                                <span class="price destaq">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002 ocult">
+                                                <span>Ver anúncio publicado</span>
+                                            </a> 
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Alterar anúncio</span>
+                                            </a>
+                                            <p>
+                                                Ao alterar um anuncio o mesmo estará sujeito a nova avaliação
+                                            </p>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+
+                                <li>
+                                    <div class="title row">
+                                        <div class="floatLeft">Data do envio do cadastro: <strong>17/06/2013</strong></div>                                                      
+                                        <div class="floatRight">Data da publicação: <strong>17/06/2013</strong></div>
+                                    </div>
+                                    
+                                    <div class="infos row">
+                                        <div class="wrapImg">
+                                            <div class="thatsImg">
+                                                <img src="img/exemploIMGimovel001.jpg" height="129" width="191" alt="">
+                                            </div>
+
+                                            <div class="thatsLabel pronto"></div>
+                                            
+                                            <div class="clear"></div>
+                                        </div><!-- /wrapImg -->
+
+                                        <div class="wrapTxt">
+                                            <div class="thatsDescr">
+                                                Santana - São Paulo - SP<br>
+                                                380.00m² de área privativa<br>
+                                                1, 2 ou 3 Dorms (sendo 2 suítes)
+                                            </div>
+                                            
+                                            <div class="thatsPrice">
+                                                <span class="line">De: R$ 986.000,00</span>
+                                                <span class="price destaq">R$ 986.000,00</span>
+                                            </div>
+                                        </div><!-- /wrapTxt -->
+
+                                        <div class="wrapRight">    
+                                            <a href="#" title="" class="btAzul002 ocult">
+                                                <span>Ver anúncio publicado</span>
+                                            </a> 
+                                            <a href="#" title="" class="btAzul002">
+                                                <span>Alterar anúncio</span>
+                                            </a>
+                                            <p>
+                                                Ao alterar um anuncio o mesmo estará sujeito a nova avaliação
+                                            </p>
+                                        </div><!-- /wrapRight -->
+                                    </div><!-- /infos -->
+                                </li>
+                            </ul><!-- /lista_resultado_da_busca -->
+                            <div class="clear"></div>
+
+                            <div class="pagerType001">
+                                <a href="#" title="" class="">Anterior</a>
+                                <a href="#" title="" class="pageNum ativo">01</a>
+                                <a href="#" title="" class="pageNum">02</a>
+                                <a href="#" title="" class="pageNum">03</a>
+                                <a href="#" title="" class="pageNum">04</a>
+                                <a href="#" title="" class="pageNum">05</a>
+                                <a href="#" title="" class="">Próxima</a>
+                            </div><!-- /pagerType001 -->
+                        </div><!-- /wrap_resultado_da_busca -->
+                       
+                        <div class="clear"></div>
+                    
                     </article><!-- /article -->
                     <div class="clear"></div>
                     
