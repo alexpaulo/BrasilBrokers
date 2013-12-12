@@ -126,7 +126,11 @@ body{background: #023671; overflow-x: hidden;}
 .clear{clear: both;}
 .floatLeft{float: left;}
 .floatRight{float: right;}
+.mgRight10 { margin-right: 10px !important; }
+.mgRight20 { margin-right: 20px !important; }
+.mgRight30 { margin-right: 30px !important; }
 .mgRight40 { margin-right: 40px; }
+.mgBottom20 { margin-bottom: 20px; }
 *{outline: none;}
 #master{}
 
@@ -416,6 +420,11 @@ body{background: #023671; overflow-x: hidden;}
 .checkboxTypes003 a.ativo{padding: 1px 2px 1px 22px; background: url(../img/ico_checkboxTypes003.png) 0 -107px no-repeat; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
 .checkboxTypes003 .thatsCheckbox{position: absolute; right: 0;}
 .checkboxTypes003.block { display: block; }
+
+.checkboxTypes004{font: 12px 'Myriad Pro', Arial; color: #3b4d07;}
+.checkboxTypes004 a{position: relative; display: block; margin: 20px 5px 30px 0; padding: 0 12px; height: 27px; font: 12px/27px 'Myriad Pro', Arial; color: #808080; text-decoration: none; background: #eaeaea; border: solid 1px #dadada; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.checkboxTypes004 a.ativo{ background: #dadada; }
+.checkboxTypes004 .thatsCheckbox{position: absolute; right: 0;}
 
 .checkboxTypes001.inlineType{}
 .checkboxTypes001.inlineType a{display: inline-block; padding-right: 3px;}
@@ -966,7 +975,9 @@ body{background: #023671; overflow-x: hidden;}
   .w90{width: 90px !important;}
   .w95{width: 95px !important;}
   .w100{width: 100px !important;}
+  .w102{width: 102px !important;}
   .w110{width: 110px !important;}
+  .w120{width: 120px !important;}
   .w114{width: 114px;}
   .w115{width: 115px;}
   .w120{width: 120px !important;}
@@ -981,20 +992,27 @@ body{background: #023671; overflow-x: hidden;}
   .w176{width: 176px !important;}
   .w180{width: 180px !important;}  
   .w185{width: 185px;}
+  .w190{width: 190px !important;}  
   .w200{width: 200px;}
   .w203{width: 203px !important;}
   .w205{width: 205px !important;}
   .w210{width: 210px !important;}
   .w212{width: 212px;}
+  .w213{width: 213px !important;}
+  .w221{width: 221px !important;}
   .w218{width: 218px !important;}
   .w247{width: 247px !important;}
+  .w325{width: 325px !important;}
+  .w335{width: 335px !important;}
   .w350{width: 350px !important;}
+  .w360{width: 360px !important;}
   .w384{width: 384px !important;}
   .w385{width: 385px !important;}
   .w415{width: 415px !important;}
   .w525{width: 525px !important;}
   .w590{width: 590px !important;}
   .w610{width: 610px !important;}
+  .w688{width: 688px !important;}
   .w750{width: 750px;}
 /* pre-lancamento.php - fim */
 
@@ -1662,9 +1680,14 @@ ul.list_default li strong { font-family: 'latobold'; }
 
 /*input file*/
 .custom-upload { position: relative; height: 24px; margin-bottom: 10px; }
-.custom-upload input[type=file] { outline:none; position: relative; text-align: right; -moz-opacity:0 ; filter:alpha(opacity: 0); opacity: 0; z-index: 2; width:100%; height:100%; }
+.custom-upload input[type=file] { outline:none; position: relative; text-align: right; -moz-opacity:0 ; filter:alpha(opacity: 0); opacity: 0; z-index: 2; width:100%; height:100%; cursor: pointer; }
 .custom-upload .fake-file { background: url(../img/btn_input_file.png) center right no-repeat; position: absolute; top: 0px; left: 0px; width: 594px; padding: 0; margin: 0; z-index: 1; line-height: 100%; }
 .custom-upload .fake-file input { width:414px; }
+
+.custom-upload.fotos .fake-file { background: url(../img/btn_input_file_fotos.png) top right no-repeat; width: 490px; }
+.custom-upload.fotos .fake-file input { width:294px; }
+
+
 
 /*table*/
 table.default { border-collapse: collapse; border: 1px solid #DDDDDD; font-size: 13px; margin: 10px 0 10px 0; padding: 0; }
@@ -1683,6 +1706,17 @@ table.default .col2 { width: 450px; }
 .zebra-striped tbody tr:hover td, 
 .zebra-striped tbody tr:hover th { background-color: #F5F5F5; }
 
+table.tab_fotos { display: block; border-collapse: collapse; border: 1px solid #dcdcdc; background: #eaeaea; margin: 40px 0 40px 0; padding: 15px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+table.tab_fotos td { vertical-align: middle; font: 12px/36px 'latoregular'; color: #535353; border-left: 1px solid #dcdcdc; }
+table.tab_fotos .col1 { border: none; padding-right: 18px; min-width: 165px; }
+table.tab_fotos .col2 { padding: 0 30px; }
+table.tab_fotos .col3 { padding: 0 30px; width: 140px; }
+table.tab_fotos .col4 { padding: 0 0 0 30px; }
+
+table.tab_fotos img { display: block; }
+table.tab_fotos label { font: 12px/22px 'latobold'; }
+table.tab_fotos input[type="radio"] { margin-right: 5px; }
+table.tab_fotos span { font: 12px/22px 'latoregular'; display: block; color: #808080; }
 
 
 /* a brasil brokers */
@@ -2279,7 +2313,6 @@ ul.list_sociais li .btn_ver_video:hover { color: #97c022; }
 .seja_um .box_form .type_txt.tel { width: 132px; }
 .seja_um .box_form .type_txt.mail { width: 350px; }
 .seja_um .box_form .fake-file input { width: 410px; margin-bottom: 0; }
-.seja_um .box_form .btAzul004 { margin-top: 20px; }
 .seja_um .box_form legend { color: #808080; font: 12px/16px 'latoregular'; }
 .seja_um .alert { display: table; padding: 8px 15px; margin-top: 20px; border: solid 1px #dcdcdc; background: #eaeaea; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 
@@ -2468,6 +2501,51 @@ p.arrow { font: 12px/18px 'latoregular'; color: #7b7b7b; padding-left: 8px; back
 
 .venda_alugue .row .box_default p.bold { font: 14px/18px 'latobold'; color: #7b7b7b; }
 .venda_alugue .row .box_default p.bold a { color: #37689c; }
+
+
+/* anunciar imoveis */
+
+.anunciar_imovel .bar_passos { background: url(../img/passos_anunciar_imovel.png) no-repeat; width: 520px; height: 35px; margin-bottom: 25px; display: block; }
+.anunciar_imovel.passo1 .bar_passos { background-position: 0 0; }
+.anunciar_imovel.passo2 .bar_passos { background-position: 0 -35px; }
+.anunciar_imovel.passo3 .bar_passos { background-position: 0 -70px; }
+.anunciar_imovel.passo4 .bar_passos { background-position: 0 -105px; }
+
+.anunciar_imovel .titleDefault { position: relative; }
+.anunciar_imovel .titleDefault .alert { color: #7b7b7b; font: 12px/18px 'latoregular'; position: absolute; top: 0; right: 0; }
+.anunciar_imovel .titleDefault .alert:before { content: "*"; color: #093c75; }
+
+.anunciar_imovel .mgBottom0 { margin-bottom: 0; }
+.anunciar_imovel .box_form .type_txt { margin-bottom: 4px; }
+.anunciar_imovel .box_form iframe { margin-bottom: 8px; }
+
+  ul.list_check { }
+  ul.list_check li.col { float: left; width: 30%; margin-right: 5%; }
+  ul.list_check li.col.last { margin-right: 0; }
+  ul.list_check li.col ul.checkboxTypes003 { }
+  ul.list_check li.col ul.checkboxTypes003 li { }
+  ul.list_check li.col ul.checkboxTypes003 li a { }
+
+.anunciar_imovel .buttons { margin-top: 20px; }
+.anunciar_imovel .buttons .proximo { padding: 4px 36px 3px 36px; margin-left: 20px; }
+.anunciar_imovel .buttons p.legend { margin: 5px 0 10px 0; text-align: right; }
+.anunciar_imovel .buttons a.btn_salvar { float: right; font: 12px/16px 'latobold'; color: #6078a4; text-decoration: none; margin-bottom: 20px; }
+.anunciar_imovel .buttons a.btn_salvar span { position: relative; right: 5px; width: 16px; height: 16px; display: inline-block; background: url(../img/spriteBbrokers001.png) no-repeat 0 -162px; }
+
+.anunciar_imovel.passo2 legend { margin: 10px 0; }
+.anunciar_imovel.passo2 ul.list_check { margin-bottom: 15px; }
+
+.anunciar_imovel.passo4 .buttons a.btn_salvar { margin-top: 20px; }
+.anunciar_imovel.passo4 .text { overflow: hidden; width: 534px; height: 120px; background: #FFFFFF; border: 1px solid #D8D8D8; color: #808080; font: 12px/22px 'latoregular'; margin-bottom: 10px; }
+.anunciar_imovel.passo4 .text p { margin: 10px; }
+
+.anunciar_imovel.passo4 .mCSB_container { width: 100%; }
+.anunciar_imovel.passo4 .mCSB_scrollTools .mCSB_dragger  { background: #cccccc; }
+.anunciar_imovel.passo4 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { background: none; }
+.anunciar_imovel.passo4 .mCSB_scrollTools .mCSB_draggerRail { background: none; }
+.anunciar_imovel.passo4 .mCustomScrollBox .mCSB_scrollTools { background: #f7f7f7; border: 1px solid #cccccc; border-right: none; }
+.anunciar_imovel.passo4 .mCSB_scrollTools .mCSB_buttonUp + .mCSB_draggerContainer { padding-bottom: 0; }
+
 
 /* confirmar dados */
 .confirmar_dados { }

@@ -173,6 +173,37 @@ $(function(){
 		}
 	//checkboxTypes003-fim
 
+	//checkboxTypes004:
+		var checkboxTypes004 = $('.checkboxTypes004');
+		if( checkboxTypes004.length > 0 ){
+
+		}
+		$(document)
+			.on('click', '.checkboxTypes004 a', function(){
+				if( $(this).find('.thatsCheckbox').prop('value') == '1' ) {
+					$(this).find('.thatsCheckbox').prop('value','0');
+					scan_thatsCheckbox();
+				}else{
+					$(this).find('.thatsCheckbox').prop('value','1');
+					scan_thatsCheckbox();
+				}
+			})
+			.on('click', '.filterBox001_trash', function(){
+				$(this).parent().find('.thatsCheckbox').prop('value','0');
+				scan_thatsCheckbox();
+			});
+
+		function scan_thatsCheckbox(){
+			$('.checkboxTypes004 .thatsCheckbox').each(function(){
+				if( $(this).val() == '1' ){
+					$(this).parent().addClass('ativo');
+				}else{
+					$(this).parent().removeClass('ativo');
+				}
+			});
+		}
+	//checkboxTypes004-fim
+
 	//reload:
 		// if( $(".btReload").length > 0 ){
 		// 	setInterval(function(){ animateRotate_btReload(360) }, 1000);
